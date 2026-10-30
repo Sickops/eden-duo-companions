@@ -1,0 +1,36 @@
+pid=31588 main=801f1000 size=617b000 arena=2b835000000 runtime=2b734efe360
+index candidate 114e16cb88
+index candidate 115bde73e8
+index candidate 116a004570
+index candidate 116a0047e8
+index candidate 116a055b00
+index candidate 116a055d78
+index candidate 116a09dbd0
+index candidate 116a09de48
+index candidate 116a1cee00
+index candidate 116a1cf078
+index candidate 116a2238b0
+index candidate 116a2ba490
+index candidate 116a2ba708
+index candidate 116a2e96f0
+index candidate 116a2e9968
+index candidate 116a31ee40
+index candidate 116a31f0b8
+index candidate 116a32c810
+index candidate 116a32ca88
+index candidate 116a335780
+index candidate 116a3359f8
+index candidate 116a338ca0
+index candidate 116a338f18
+index candidate 116a3b74b0
+index candidate 116a3b7728
+index candidate 116a3da7d0
+index candidate 116a3daa48
+index candidate 116a3e1760
+index candidate 116a3e19d8
+index candidate 116a3e1cb0
+index candidate 116a3e1f28
+index candidate 117fc08e3c
+index candidate 1184cb5f50
+index candidate 13f1052ea4
+matches=34

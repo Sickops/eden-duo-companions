@@ -1,0 +1,26 @@
+{
+ "format": 1,
+ "type": "dual-screen-mod",
+ "title_id": "0100F43008C44000",
+ "name": "Pokemon Legends Z-A dual screen",
+ "version": "0.2.0",
+ "min_runtime": 19,
+ "requires_module": true,
+ "module": {
+  "abi": 1,
+  "build_ids": [
+   "B1F12FD919EAE86A",
+   "7222E13ECF6ADB32"
+  ],
+  "libraries": {
+   "windows-x86_64": {
+    "path": "modules/windows-x86_64/0100F43008C44000.dll",
+    "sha256": "a67050de0491c1b45aaa968a48b4aa66e363cc14a71e5c8cc5e9ed18afb28522"
+   },
+   "android-arm64-v8a": {
+    "path": "modules/android-arm64-v8a/0100F43008C44000.so",
+    "sha256": "9043f70350558a2b185561cada4918d107b2b5d557bba78b4c6582d89c16af12"
+   }
+  }
+ }
+}

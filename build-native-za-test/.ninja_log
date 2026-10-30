@@ -1,0 +1,64 @@
+# ninja log v7
+75	197	8150101767738367	D:/Projet IA/Dual screen/companions/build-native-za-test/CMakeFiles/cmake.verify_globs	a2287d4533668b73
+180	4458	8149703818483221	CMakeFiles/dsmod-za-save-test.dir/za_save.cpp.obj	adb4ca1825a8e2fd
+284	5168	8149658527978725	CMakeFiles/dsmod-za-save-test.dir/0100F43008C44000_test.cpp.obj	37bb13eddab97924
+4459	5174	8149703861279495	dsmod-za-save-test.exe	ae6c317555e8fd13
+177	3267	8149160796561530	build.ninja	36fa12d753c10b7b
+177	3267	8149160796561530	D:/Projet IA/Dual screen/companions/build-native-za-test/cmake_install.cmake	36fa12d753c10b7b
+177	3267	8149160796561530	D:/Projet IA/Dual screen/companions/build-native-za-test/CTestTestfile.cmake	36fa12d753c10b7b
+175	5122	8150095073610888	CMakeFiles/dsmod-za-module-host-test.dir/za_module_host_test.cpp.obj	1c6a4c4e11afed8c
+5123	5432	8150095123089273	dsmod-za-module-host-test.exe	ccb03e90c43c3689
+201	4486	8149703818698729	CMakeFiles/dsmod-za-live-test.dir/za_save.cpp.obj	fc607f9dc88f5e36
+204	6195	8150101769027137	CMakeFiles/dsmod-za-live-test.dir/za_live_test.cpp.obj	8a627890243b303d
+6196	6714	8150101828940369	dsmod-za-live-test.exe	6714a3d4717d7a5
+75	184	8150104274613861	D:/Projet IA/Dual screen/companions/build-native-za-test/CMakeFiles/cmake.verify_globs	a2287d4533668b73
+191	6034	8150104275771635	CMakeFiles/dsmod-za-live-test.dir/za_live_test.cpp.obj	8a627890243b303d
+6035	6520	8150104334214962	dsmod-za-live-test.exe	6714a3d4717d7a5
+50	133	8150108522083240	D:/Projet IA/Dual screen/companions/build-native-za-test/CMakeFiles/cmake.verify_globs	a2287d4533668b73
+138	4162	8150108522960789	CMakeFiles/dsmod-za-live-test.dir/za_live_test.cpp.obj	8a627890243b303d
+4163	4503	8150108563202683	dsmod-za-live-test.exe	6714a3d4717d7a5
+53	134	8150109428075154	D:/Projet IA/Dual screen/companions/build-native-za-test/CMakeFiles/cmake.verify_globs	a2287d4533668b73
+139	4246	8150109428930762	CMakeFiles/dsmod-za-live-test.dir/za_live_test.cpp.obj	8a627890243b303d
+4247	4587	8150109470008766	dsmod-za-live-test.exe	6714a3d4717d7a5
+60	150	8150110105212174	D:/Projet IA/Dual screen/companions/build-native-za-test/CMakeFiles/cmake.verify_globs	a2287d4533668b73
+155	3810	8150110106161815	CMakeFiles/dsmod-za-live-test.dir/za_live_test.cpp.obj	8a627890243b303d
+3810	4129	8150110142712376	dsmod-za-live-test.exe	6714a3d4717d7a5
+79	215	8150119354865012	D:/Projet IA/Dual screen/companions/build-native-za-test/CMakeFiles/cmake.verify_globs	a2287d4533668b73
+223	6115	8150119356293809	CMakeFiles/dsmod-za-live-test.dir/za_live_test.cpp.obj	8a627890243b303d
+6120	6603	8150119415259872	dsmod-za-live-test.exe	6714a3d4717d7a5
+87	210	8150129187512544	D:/Projet IA/Dual screen/companions/build-native-za-test/CMakeFiles/cmake.verify_globs	a2287d4533668b73
+217	6838	8150129188813798	CMakeFiles/dsmod-za-live-test.dir/za_live_test.cpp.obj	8a627890243b303d
+6839	7330	8150129255035563	dsmod-za-live-test.exe	6714a3d4717d7a5
+87	214	8150131902820586	D:/Projet IA/Dual screen/companions/build-native-za-test/CMakeFiles/cmake.verify_globs	a2287d4533668b73
+221	7086	8150131904164630	CMakeFiles/dsmod-za-live-test.dir/za_live_test.cpp.obj	8a627890243b303d
+7088	7597	8150131972829835	dsmod-za-live-test.exe	6714a3d4717d7a5
+79	192	8150133222736295	D:/Projet IA/Dual screen/companions/build-native-za-test/CMakeFiles/cmake.verify_globs	a2287d4533668b73
+199	6324	8150133223929531	CMakeFiles/dsmod-za-live-test.dir/za_live_test.cpp.obj	8a627890243b303d
+6325	6830	8150133285198370	dsmod-za-live-test.exe	6714a3d4717d7a5
+84	206	8150135189253205	D:/Projet IA/Dual screen/companions/build-native-za-test/CMakeFiles/cmake.verify_globs	a2287d4533668b73
+213	7326	8150135190541788	CMakeFiles/dsmod-za-live-test.dir/za_live_test.cpp.obj	8a627890243b303d
+7327	7869	8150135261686750	dsmod-za-live-test.exe	6714a3d4717d7a5
+76	201	8150137386136788	D:/Projet IA/Dual screen/companions/build-native-za-test/CMakeFiles/cmake.verify_globs	a2287d4533668b73
+207	7474	8150137387440848	CMakeFiles/dsmod-za-live-test.dir/za_live_test.cpp.obj	8a627890243b303d
+7475	7912	8150137460120136	dsmod-za-live-test.exe	6714a3d4717d7a5
+67	148	8150476621449779	D:/Projet IA/Dual screen/companions/build-native-za-test/CMakeFiles/cmake.verify_globs	a2287d4533668b73
+153	4189	8150476622305696	CMakeFiles/dsmod-za-live-test.dir/za_live_test.cpp.obj	8a627890243b303d
+4189	4526	8150476662669823	dsmod-za-live-test.exe	6714a3d4717d7a5
+77	182	8150504199475792	D:/Projet IA/Dual screen/companions/build-native-za-test/CMakeFiles/cmake.verify_globs	a2287d4533668b73
+188	5210	8150504200583554	CMakeFiles/dsmod-za-module-host-test.dir/za_module_host_test.cpp.obj	1c6a4c4e11afed8c
+5211	5619	8150504250807973	dsmod-za-module-host-test.exe	ccb03e90c43c3689
+74	181	8150521268116553	D:/Projet IA/Dual screen/companions/build-native-za-test/CMakeFiles/cmake.verify_globs	a2287d4533668b73
+189	6376	8150521269263935	CMakeFiles/dsmod-za-live-test.dir/za_live_test.cpp.obj	8a627890243b303d
+6377	6821	8150521331139821	dsmod-za-live-test.exe	6714a3d4717d7a5
+64	163	8150526523137130	D:/Projet IA/Dual screen/companions/build-native-za-test/CMakeFiles/cmake.verify_globs	a2287d4533668b73
+168	5909	8150526524179284	CMakeFiles/dsmod-za-live-test.dir/za_live_test.cpp.obj	8a627890243b303d
+5912	6356	8150526581610904	dsmod-za-live-test.exe	6714a3d4717d7a5
+71	170	8150532907096715	D:/Projet IA/Dual screen/companions/build-native-za-test/CMakeFiles/cmake.verify_globs	a2287d4533668b73
+176	6579	8150532908149722	CMakeFiles/dsmod-za-live-test.dir/za_live_test.cpp.obj	8a627890243b303d
+6580	7015	8150532972184229	dsmod-za-live-test.exe	6714a3d4717d7a5
+80	196	8150533683357254	D:/Projet IA/Dual screen/companions/build-native-za-test/CMakeFiles/cmake.verify_globs	a2287d4533668b73
+203	7718	8150533684585031	CMakeFiles/dsmod-za-live-test.dir/za_live_test.cpp.obj	8a627890243b303d
+7719	8315	8150533759735674	dsmod-za-live-test.exe	6714a3d4717d7a5
+81	182	8150540575475907	D:/Projet IA/Dual screen/companions/build-native-za-test/CMakeFiles/cmake.verify_globs	a2287d4533668b73
+188	6590	8150540576543823	CMakeFiles/dsmod-za-live-test.dir/za_live_test.cpp.obj	8a627890243b303d
+6591	7044	8150540640574190	dsmod-za-live-test.exe	6714a3d4717d7a5

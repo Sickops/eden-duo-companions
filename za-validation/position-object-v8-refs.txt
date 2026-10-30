@@ -1,0 +1,10 @@
+pid=23284 main=80bd4000 size=617b000 arena=1fdf0c00000 runtime=1fcf0aba2e0
+main ref +47db640 -> 114e481628 (object+c0)
+main ref +47db700 -> 114e4816e8 (object+0)
+main ref +612d180 -> 114e481640 (object+a8)
+ref 114e481610 -> 114e481600 (record+e8)
+ref 114e4816d0 -> 114e4816c0 (record+28)
+ref 114ec47830 -> 114e481600 (record+e8)
+ref 114ec47860 -> 114e4816c0 (record+28)
+ref 1159387548 -> 114e481540 (record+1a8)
+references=5

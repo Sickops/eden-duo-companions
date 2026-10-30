@@ -1,0 +1,4 @@
+arc/ik_eventbinevent_battle_typeevent_battle_type.bin.trpak: hash=8AB96ACE584A350B pack#5352 off=1812309584 size=10144
+inner files: 2
+  [ 0] type=0x07030000 uncomp=  15436 head: 04 00 00 00 7a ef ff ff head=04 00 00 00 7a ef ff ff 04 00 00 00 7d 00 00 00
+  [ 1] type=0x07030000 uncomp=  33252 head: 0c 00 00 00 00 00 06 00 head=0c 00 00 00 00 00 06 00 08 00 04 00 06 00 00 00

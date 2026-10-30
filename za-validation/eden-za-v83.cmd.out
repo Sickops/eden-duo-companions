@@ -1,0 +1,92 @@
+DSMod value za.map.mode=-1 za.map.destination=0 za.live.status="Build chargé : 7222E13ECF6ADB32. Activez la mise à jour Z-A 2.0.2 puis redémarrez Eden." za.game.selected=-1
+DSMod value za.map.mode=-1 za.live.status="Mémoire : gestionnaire du jeu indisponible"
+DSMod action 'game_confirm' queued
+DSMod value za.map.mode=-1 za.map.destination=0 za.live.status="Direct : PV 5/6 · position OK · sélection OK
+PV à confirmer : Lucario" za.travel.status="" za.center0.destination=105
+hexdump base=00114C4F0600 len=40
+  +0000: 00000000846CE178 00000000846CE280 0000000083CF1E2D 0000000000000000
+  +0020: 000000114C4F0600 0000000084AE41C0 0000000000000000 000000114C400000
+hexdump base=00114FCEF100 len=40
+  +0000: 00000000848F1D48 000000114C4F0600 000000114FCEF100 0000001100080620
+  +0020: 00000000848F1DD0 00000000848F1E20 000000000013D15A 00000000853A0CD0
+DSMod read 00114FCEF308: +0:0
+DSMod read 00114FCEF3A8: +0:0
+DSMod value za.map.mode=0 za.map.destination=0 za.live.status="Direct : PV 6/6 · position OK · sélection OK"
+DSMod page -> 4 'map'
+DSMod action 'center_pick_0' queued
+DSMod action 'center_travel' queued
+DSMod value za.map.mode=2 za.map.destination=105 za.travel.status="Voyage demandé au jeu" za.travel.active=0 za.x=-500.9237f za.z=-692.2488f
+DSMod value za.map.mode=2 za.map.destination=105 za.travel.status="Voyage demandé au jeu"
+DSMod action 'game_confirm' queued
+DSMod value za.map.mode=2 za.x=-763.2000f za.z=-884.7000f
+DSMod action 'game_map' queued
+DSMod action 'game_destinations' queued
+DSMod action 'game_map' queued
+DSMod action 'center_pick_1' queued
+DSMod value za.center.name="Centre Pokémon de l'Avenue Floréal" za.center.destination=missing za.map.mode=3 za.map.destination=2 za.x=-763.2000f za.z=-884.7000f
+DSMod page -> 4 'map'
+DSMod action 'center_travel' queued
+DSMod value za.center.name="" za.map.mode=3 za.map.destination=205 za.travel.active=0 za.travel.status="Voyage demandé au jeu" za.x=-763.2000f za.z=-884.7000f
+DSMod action 'game_confirm' queued
+DSMod page -> 4 'map'
+DSMod action 'center_pick_0' queued
+DSMod value za.map.mode=4 za.x=-488.9260f za.z=-788.7630f
+DSMod action 'center_travel' queued
+DSMod value za.map.mode=4 za.map.destination=205 za.travel.active=0 za.travel.status="Fermez la confirmation de la carte avant de réessayer." za.x=-488.9260f za.z=-788.7630f
+DSMod tap (481,369) -> action 'center_pick_8'
+DSMod tap (512,515) -> action 'center_travel'
+DSMod tap (980,556) -> action 'game_map'
+DSMod tap (489,1018) -> action 'go_box'
+DSMod transition fade 'map' -> 'box' 150 ms: start 22.69 ms (both pages drawn)
+DSMod transition done: 9 frame(s) in 155 ms, frame avg 13.54 ms max 16.99 ms, target redrawn 8x
+DSMod tap (305,1020) -> action 'go_dex'
+DSMod transition fade 'box' -> 'dex' 150 ms: start 20.12 ms (old page reused, new page drawn)
+DSMod transition done: 11 frame(s) in 164 ms, frame avg 4.21 ms max 15.82 ms, target redrawn 2x
+DSMod tap (118,1029) -> action 'go_team'
+DSMod transition fade 'dex' -> 'team' 150 ms: start 37.25 ms (old page reused, new page drawn)
+DSMod transition done: 11 frame(s) in 166 ms, frame avg 5.63 ms max 17.14 ms, target redrawn 3x
+DSMod tap (932,1012) -> action 'go_bag'
+DSMod transition fade 'team' -> 'bag' 150 ms: start 12.73 ms (old page reused, new page drawn)
+DSMod transition done: 11 frame(s) in 165 ms, frame avg 3.86 ms max 13.96 ms, target redrawn 2x
+DSMod tap (1123,918) -> action 'bag_next'
+DSMod tap (1123,918) -> action 'bag_next'
+DSMod tap (1123,918) -> action 'bag_next'
+DSMod tap (1123,918) -> action 'bag_next'
+DSMod tap (1123,918) -> action 'bag_next'
+DSMod tap (1123,918) -> action 'bag_next'
+DSMod tap (1123,918) -> action 'bag_next'
+DSMod tap (1123,918) -> action 'bag_next'
+DSMod tap (1123,918) -> action 'bag_next'
+DSMod tap (1122,915) -> action 'bag_next'
+DSMod tap (1122,915) -> action 'bag_next'
+DSMod tap (1122,915) -> action 'bag_next'
+DSMod tap (1122,915) -> action 'bag_next'
+DSMod tap (1113,921) -> action 'bag_next'
+DSMod tap (1112,922) -> action 'bag_next'
+DSMod tap (1112,922) -> action 'bag_next'
+DSMod tap (1112,922) -> action 'bag_next'
+DSMod tap (1112,922) -> action 'bag_next'
+DSMod tap (1112,922) -> action 'bag_next'
+DSMod tap (1112,922) -> action 'bag_next'
+DSMod tap (1111,922) -> action 'bag_next'
+DSMod tap (1111,922) -> action 'bag_next'
+DSMod tap (1109,922) -> action 'bag_next'
+DSMod tap (1109,922) -> action 'bag_next'
+DSMod tap (1108,922) -> action 'bag_next'
+DSMod tap (1108,922) -> action 'bag_next'
+DSMod tap (1106,922) -> action 'bag_next'
+DSMod tap (1100,922) -> action 'bag_next'
+DSMod tap (925,907) -> action 'bag_prev'
+DSMod tap (918,916) -> action 'bag_prev'
+DSMod tap (918,916) -> action 'bag_prev'
+DSMod tap (918,916) -> action 'bag_prev'
+DSMod tap (918,916) -> action 'bag_prev'
+DSMod tap (918,916) -> action 'bag_prev'
+DSMod tap (914,919) -> action 'bag_prev'
+DSMod tap (906,920) -> action 'bag_prev'
+DSMod tap (906,920) -> action 'bag_prev'
+DSMod tap (906,921) -> action 'bag_prev'
+DSMod tap (914,919) -> action 'bag_prev'
+DSMod tap (914,919) -> action 'bag_prev'
+DSMod tap (914,919) -> action 'bag_prev'
+DSMod tap (914,919) -> action 'bag_prev'

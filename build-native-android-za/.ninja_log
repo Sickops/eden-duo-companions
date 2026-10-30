@@ -1,0 +1,16 @@
+# ninja log v7
+67	162	8150533125797440	D:/Projet IA/Dual screen/companions/build-native-android-za/CMakeFiles/cmake.verify_globs	37c098e52b3c2aaf
+174	1399	8148973072914384	CMakeFiles/dsmod-za.dir/third_party/ooz/bitknit.cpp.o	225d865c66b4c045
+1401	1592	8148973085199178	CMakeFiles/dsmod-za.dir/third_party/ooz/oozlib.cpp.o	380b08a756ddee33
+149	3004	8148973072676784	CMakeFiles/dsmod-za.dir/third_party/ooz/kraken.cpp.o	e4780aefb7661aea
+161	3480	8148973072793109	CMakeFiles/dsmod-za.dir/third_party/ooz/lzna.cpp.o	fdff560a22e146c
+1593	5723	8148973087109041	CMakeFiles/dsmod-za.dir/D_/Projet_IA/Dual_screen/eden-duo/externals/bc_decoder/bc_decoder.cpp.o	cbaa5e81465df1e
+269	4519	8149708876246789	CMakeFiles/dsmod-za.dir/za_save.cpp.o	58d67d71c4f61a97
+189	8470	8150533127021872	CMakeFiles/dsmod-za.dir/0100F43008C44000.cpp.o	915d6f6ead968b0
+271	8832	8150523148501000	CMakeFiles/dsmod-za.dir/za_assets.cpp.o	bd7d9799a3d8210e
+8470	8960	8150533209839290	0100F43008C44000.so	b46f661929ee5bdc
+216	4355	8150533127292403	CMakeFiles/dsmod-za.dir/za_live.cpp.o	a8b31656edd41d89
+72	178	8150540854203607	D:/Projet IA/Dual screen/companions/build-native-android-za/CMakeFiles/cmake.verify_globs	37c098e52b3c2aaf
+229	4176	8150540855772438	CMakeFiles/dsmod-za.dir/za_live.cpp.o	a8b31656edd41d89
+205	8843	8150540855532029	CMakeFiles/dsmod-za.dir/0100F43008C44000.cpp.o	915d6f6ead968b0
+8844	9349	8150540941919930	0100F43008C44000.so	b46f661929ee5bdc

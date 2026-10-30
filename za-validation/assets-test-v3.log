@@ -1,0 +1,43 @@
+za_assets: trpfd 0 bytes, trpfs 0 bytes
+za_assets: archive sizes rejected
+za_assets: trpfd 7383624 bytes, trpfs 3322680544 bytes
+za_assets: hash hits 9892, size rejects 0
+za_assets: sizes[0..5] = 2224 2040 2224 2224 2040 2040
+za_assets: index: 9892 paths, 9892 packs
+za_assets: catalogue: icons for 234 species
+za_assets: names: 28244 bytes -> 1025 entries, first 'Bulbizarre'
+delayed romfs: retry recovered
+names ready: 1
+  #0001 Bulbizarre
+  #0004 Salamèche
+  #0025 Pikachu
+  #0035 Mélofée
+  #0133 Évoli
+  #0150 Mewtwo
+  #0152 Germignon
+  #0650 Marisson
+  #0664 Lépidonille
+  #0666 Prismillon
+  #0682 Fluvetin
+  #0688 Opermine
+  #0493 Arceus
+  #0906 Poussacha
+  #1000 Forgerette
+icons:
+  icon_0001.png                160x160 -> D:\Projet IA\Dual screen\companions\za-validation\assets-v3/icon_0001.png
+  icon_0004.png                160x160 -> D:\Projet IA\Dual screen\companions\za-validation\assets-v3/icon_0004.png
+  icon_0025.png                160x160 -> D:\Projet IA\Dual screen\companions\za-validation\assets-v3/icon_0025.png
+  icon_0035.png                160x160 -> D:\Projet IA\Dual screen\companions\za-validation\assets-v3/icon_0035.png
+  icon_0133.png                160x160 -> D:\Projet IA\Dual screen\companions\za-validation\assets-v3/icon_0133.png
+  icon_0150.png                160x160 -> D:\Projet IA\Dual screen\companions\za-validation\assets-v3/icon_0150.png
+  icon_0152.png                160x160 -> D:\Projet IA\Dual screen\companions\za-validation\assets-v3/icon_0152.png
+  icon_0650.png                160x160 -> D:\Projet IA\Dual screen\companions\za-validation\assets-v3/icon_0650.png
+  icon_0664.png                160x160 -> D:\Projet IA\Dual screen\companions\za-validation\assets-v3/icon_0664.png
+  icon_0666.png                160x160 -> D:\Projet IA\Dual screen\companions\za-validation\assets-v3/icon_0666.png
+  icon_0682.png                160x160 -> D:\Projet IA\Dual screen\companions\za-validation\assets-v3/icon_0682.png
+  icon_0688.png                160x160 -> D:\Projet IA\Dual screen\companions\za-validation\assets-v3/icon_0688.png
+  icon 0493 absent or failed
+  icon 0906 absent or failed
+  icon 1000 absent or failed
+map:
+  map_640.png                  640x640 -> D:\Projet IA\Dual screen\companions\za-validation\assets-v3/map_640.png

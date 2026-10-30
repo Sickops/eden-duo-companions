@@ -1,0 +1,24 @@
+exception c0000005 thread 19856 RIP=7ff80ac7bbc7 RSP=b9220fd708 RCX=339a7ea8300 RDX=600 R8=130
+7ff80ac7bbc7 VCRUNTIME140.dll+1bbc7 _NLG_Return2+15f7
+7ff7a1082831 eden.exe+b82831 Core::DeviceMemoryManager<Tegra::MaxwellDeviceTraits>::ReadBlockUnsafe+d1
+7ff7a117b118 eden.exe+c7b118 VideoCommon::MemoryTrackerBase<Core::DeviceMemoryManager<Tegra::MaxwellDeviceTraits> >::IsRegionGpuModified+58
+7ff7a120597c eden.exe+d0597c VideoCommon::BufferCache<Vulkan::BufferCacheParams>::BindHostGraphicsUniformBuffer+13c
+7ff7a1205a85 eden.exe+d05a85 VideoCommon::BufferCache<Vulkan::BufferCacheParams>::BindHostStageBuffers+65
+7ff7a12076f5 eden.exe+d076f5 VideoCommon::BufferCache<Vulkan::BufferCacheParams>::UpdateGraphicsBuffers+55
+7ff7a1210479 eden.exe+d10479 Vulkan::FixedPipelineState::UnpackStencilOp+5719
+7ffff71f877a msvcp140.dll+1877a Mtx_unlock+1a
+7ffff71f877a msvcp140.dll+1877a Mtx_unlock+1a
+7ff7a11608f0 eden.exe+c608f0 VideoCommon::ShaderCache::TryGet+190
+7ff7a10f5de9 eden.exe+bf5de9 VideoCommon::WordManager<Core::DeviceMemoryManager<Tegra::MaxwellDeviceTraits>,16,4194304>::IterateWords<`VideoCommon::WordManager<Core::DeviceMemoryManager<Tegra::MaxwellDeviceTraits>,16,4194304>::ChangeRegionState'::`2'::<lambda_1> >+129
+7ff7a10f5de9 eden.exe+bf5de9 VideoCommon::WordManager<Core::DeviceMemoryManager<Tegra::MaxwellDeviceTraits>,16,4194304>::IterateWords<`VideoCommon::WordManager<Core::DeviceMemoryManager<Tegra::MaxwellDeviceTraits>,16,4194304>::ChangeRegionState'::`2'::<lambda_1> >+129
+7ff7a10feec5 eden.exe+bfeec5 VideoCommon::WordManager<Core::DeviceMemoryManager<Tegra::MaxwellDeviceTraits>,16,4194304>::ChangeRegionState+c5
+7ffff71f8672 msvcp140.dll+18672 Mtx_lock+52
+7ff7a10f545c eden.exe+bf545c VideoCommon::QueryCacheBase<Vulkan::QueryCacheParams>::IterateCache<1,`VideoCommon::QueryCacheBase<Vulkan::QueryCacheParams>::InvalidateRegion'::`2'::<lambda_1> >+3c
+7ff7a115f24d eden.exe+c5f24d VideoCommon::ShaderCache::InvalidateRegion+4d
+7ff7a1209ae5 eden.exe+d09ae5 Vulkan::FixedPipelineState::DynamicState::Refresh+105
+7ff7a12099a5 eden.exe+d099a5 Vulkan::FixedPipelineState::BlendingAttachment::Refresh+365
+7ff7a120abc8 eden.exe+d0abc8 Vulkan::FixedPipelineState::Refresh+fa8
+7ff7a10f605d eden.exe+bf605d VideoCommon::WordManager<Core::DeviceMemoryManager<Tegra::MaxwellDeviceTraits>,16,4194304>::IterateWords<`VideoCommon::WordManager<Core::DeviceMemoryManager<Tegra::MaxwellDeviceTraits>,16,4194304>::ChangeRegionState'::`2'::<lambda_1> >+39d
+7ff7a1101aec eden.exe+c01aec Vulkan::RasterizerVulkan::Draw+1c
+7ff7a1093625 eden.exe+b93625 Tegra::Engines::Maxwell3D::GetRegisterValue+25
+7ff7a10b5705 eden.exe+bb5705 Tegra::HLE_DrawIndexedIndirect::Execute+225

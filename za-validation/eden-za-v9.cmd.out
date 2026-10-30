@@ -1,0 +1,11 @@
+DSMod tap (270,1044) -> action 'go_dex'
+DSMod transition fade 'team' -> 'dex' 150 ms: start 34.53 ms (both pages drawn)
+DSMod transition done: 11 frame(s) in 165 ms, frame avg 5.05 ms max 15.49 ms, target redrawn 3x
+DSMod tap (294,1029) -> action 'go_dex'
+DSMod tap (545,1016) -> action 'go_box'
+DSMod transition fade 'dex' -> 'box' 150 ms: start 12.30 ms (old page reused, new page drawn)
+DSMod transition done: 11 frame(s) in 166 ms, frame avg 9.66 ms max 16.11 ms, target redrawn 7x
+DSMod tap (718,1015) -> action 'go_map'
+DSMod transition fade 'box' -> 'map' 150 ms: start 6.44 ms (old page reused, new page drawn)
+DSMod transition done: 2 frame(s) in 178 ms, frame avg 0.63 ms max 0.79 ms, target redrawn 0x
+DSMod action 'game_menu' queued

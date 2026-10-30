@@ -1,0 +1,26 @@
+arc/worldexlbattlestatus_rank_datastatus_rank_data.bin.trpak: hash=2F3DFE0728C497F2 pack#1889 off=599584640 size=170072
+inner files: 24
+  [ 0] type=0x07030000 uncomp=  11328 head: 04 00 00 00 62 d4 ff ff head=04 00 00 00 62 d4 ff ff 04 00 00 00 01 00 00 00
+  [ 1] type=0x07030000 uncomp=  24624 head: 0c 00 00 00 00 00 06 00 head=0c 00 00 00 00 00 06 00 08 00 04 00 06 00 00 00
+  [ 2] type=0x07030000 uncomp=  37396 head: 0c 00 00 00 00 00 06 00 head=0c 00 00 00 00 00 06 00 08 00 04 00 06 00 00 00
+  [ 3] type=0x07030000 uncomp=    760 head: 0c 00 00 00 00 00 06 00 head=0c 00 00 00 00 00 06 00 08 00 04 00 06 00 00 00
+  [ 4] type=0x07030000 uncomp=   3904 head: 04 00 00 00 06 f1 ff ff head=04 00 00 00 06 f1 ff ff 04 00 00 00 1a 00 00 00
+  [ 5] type=0x07030000 uncomp= 847984 head: 04 00 00 00 0a 10 f3 ff head=04 00 00 00 0a 10 f3 ff 04 00 00 00 b7 01 00 00
+  [ 6] type=0x07030000 uncomp=   1784 head: 0c 00 00 00 00 00 06 00 head=0c 00 00 00 00 00 06 00 08 00 04 00 06 00 00 00
+  [ 7] type=0x07030000 uncomp=  81956 head: 04 00 00 00 0e c1 fe ff head=04 00 00 00 0e c1 fe ff 04 00 00 00 bf 00 00 00
+  [ 8] type=0x07030000 uncomp=  13424 head: 04 00 00 00 16 cc ff ff head=04 00 00 00 16 cc ff ff 04 00 00 00 5c 00 00 00
+  [ 9] type=0x07030000 uncomp=   5144 head: 0c 00 00 00 00 00 06 00 head=0c 00 00 00 00 00 06 00 08 00 04 00 06 00 00 00
+  [10] type=0xFF000000 uncomp=    188 in=188 dst_len=188 got=-1 head=
+  [11] type=0x07030000 uncomp=  11156 head: 0c 00 00 00 00 00 06 00 head=0c 00 00 00 00 00 06 00 08 00 04 00 06 00 00 00
+  [12] type=0xFF000000 uncomp=    168 in=168 dst_len=168 got=-1 head=
+  [13] type=0x07030000 uncomp=    280 head: 0c 00 00 00 00 00 06 00 head=0c 00 00 00 00 00 06 00 08 00 04 00 06 00 00 00
+  [14] type=0x07030000 uncomp=    328 head: 04 00 00 00 1a ff ff ff head=04 00 00 00 1a ff ff ff 04 00 00 00 05 00 00 00
+  [15] type=0x07030000 uncomp=1172624 head: 0c 00 00 00 00 00 06 00 head=0c 00 00 00 00 00 06 00 08 00 04 00 06 00 00 00
+  [16] type=0x07030000 uncomp=   2392 head: 0c 00 00 00 00 00 06 00 head=0c 00 00 00 00 00 06 00 08 00 04 00 06 00 00 00
+  [17] type=0x07030000 uncomp=  14244 head: 0c 00 00 00 00 00 06 00 head=0c 00 00 00 00 00 06 00 08 00 04 00 06 00 00 00
+  [18] type=0x07030000 uncomp=    312 head: 0c 00 00 00 00 00 06 00 head=0c 00 00 00 00 00 06 00 08 00 04 00 06 00 00 00
+  [19] type=0x07030000 uncomp=   3864 head: 0c 00 00 00 00 00 06 00 head=0c 00 00 00 00 00 06 00 08 00 04 00 06 00 00 00
+  [20] type=0x07030000 uncomp=  11820 head: 0c 00 00 00 00 00 06 00 head=0c 00 00 00 00 00 06 00 08 00 04 00 06 00 00 00
+  [21] type=0x07030000 uncomp=   2156 head: 04 00 00 00 ba fe ff ff head=04 00 00 00 ba fe ff ff 04 00 00 00 32 00 00 00
+  [22] type=0x07030000 uncomp=   1824 head: 04 00 00 00 72 f9 ff ff head=04 00 00 00 72 f9 ff ff 04 00 00 00 0c 00 00 00
+  [23] type=0xFF000000 uncomp=    184 in=184 dst_len=184 got=-1 head=

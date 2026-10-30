@@ -1,0 +1,3 @@
+pid=6128 main=80d1e000 size=617b000 arena=19ca3200000 runtime=19ba307b2e0
+path 610a000,5f8,6a8 -> 114c4f0600
+nodes=100000 queued=770926 matches=1

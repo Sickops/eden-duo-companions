@@ -1,0 +1,6 @@
+[0/2] Re-checking globbed directories...
+[1/4] Building CXX object CMakeFiles\dsmod-za-save-test.dir\0100F43008C44000_test.cpp.obj
+cl : Ligne de commande warning D9025 : substitution de '/DNDEBUG' par '/UNDEBUG'
+[2/4] Building CXX object CMakeFiles\dsmod-za-save-test.dir\za_save.cpp.obj
+cl : Ligne de commande warning D9025 : substitution de '/DNDEBUG' par '/UNDEBUG'
+[3/4] Linking CXX executable dsmod-za-save-test.exe

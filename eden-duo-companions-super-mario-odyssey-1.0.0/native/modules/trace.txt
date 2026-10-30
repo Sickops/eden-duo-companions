@@ -1,0 +1,35 @@
+﻿.\za_assets_test.exe : za_assets: trpfd 7383624 bytes, trpfs 3322680544 bytes
+Au caractère Ligne:4 : 1
++ .\za_assets_test.exe "D:\Projet IA\Dual screen\.za-extract\romfs" out ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (za_assets: trpf...322680544 bytes:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+za_assets: hash hits 9892, size rejects 0
+za_assets: sizes[0..5] = 2224 2040 2224 2224 2040 2040
+za_assets: index: 9892 paths, 9892 packs
+za_assets: names: 28244 bytes -> 1026 entries, first 'Bulbizarre'
+names ready: 1
+  #0001 Bulbizarre
+  #0004 Salam├¿che
+  #0025 Pikachu
+  #0035 M├®lof├®e
+  #0133 ├ëvoli
+  #0150 Mewtwo
+  #0152 Germignon
+  #0493 Arceus
+  #0906 Poussacha
+  #1000 Forgerette
+icons:
+  icon_0001.png                160x160 -> out/icon_0001.png
+  icon_0004.png                160x160 -> out/icon_0004.png
+  icon_0025.png                160x160 -> out/icon_0025.png
+  icon_0035.png                160x160 -> out/icon_0035.png
+  icon_0133.png                160x160 -> out/icon_0133.png
+  icon_0150.png                160x160 -> out/icon_0150.png
+  icon_0152.png                160x160 -> out/icon_0152.png
+  icon 0493 FAILED
+  icon 0906 FAILED
+  icon 1000 FAILED
+map:
+  map_640.png                  640x640 -> out/map_640.png

@@ -1,0 +1,213 @@
+[0/2] Re-checking globbed directories...
+[1/4] Building CXX object src\core\CMakeFiles\core.dir\mods\mod_ui_text.cpp.obj
+Remarque : inclusion du fichier :  C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\algorithm
+Remarque : inclusion du fichier :   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\yvals_core.h
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\vcruntime.h
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\sal.h
+Remarque : inclusion du fichier :      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\concurrencysal.h
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\vadefs.h
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xkeycheck.h
+Remarque : inclusion du fichier :   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\__msvc_heap_algorithms.hpp
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xutility
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\yvals.h
+Remarque : inclusion du fichier :      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\__msvc_doom_core.hpp
+Remarque : inclusion du fichier :      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\crtdbg.h
+Remarque : inclusion du fichier :       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt.h
+Remarque : inclusion du fichier :       C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\vcruntime_new_debug.h
+Remarque : inclusion du fichier :        C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\vcruntime_new.h
+Remarque : inclusion du fichier :      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\crtdefs.h
+Remarque : inclusion du fichier :      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\use_ansi.h
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\__msvc_iter_core.hpp
+Remarque : inclusion du fichier :      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\utility
+Remarque : inclusion du fichier :       C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\initializer_list
+Remarque : inclusion du fichier :        C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\cstddef
+Remarque : inclusion du fichier :         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\stddef.h
+Remarque : inclusion du fichier :         C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xtr1common
+Remarque : inclusion du fichier :       C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\type_traits
+Remarque : inclusion du fichier :        C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\cstdint
+Remarque : inclusion du fichier :         C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\stdint.h
+Remarque : inclusion du fichier :       C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\compare
+Remarque : inclusion du fichier :        C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\concepts
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\climits
+Remarque : inclusion du fichier :      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\limits.h
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\cstdlib
+Remarque : inclusion du fichier :      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\math.h
+Remarque : inclusion du fichier :       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_math.h
+Remarque : inclusion du fichier :      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\stdlib.h
+Remarque : inclusion du fichier :       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_malloc.h
+Remarque : inclusion du fichier :       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_search.h
+Remarque : inclusion du fichier :       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_wstdlib.h
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\cstring
+Remarque : inclusion du fichier :      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\string.h
+Remarque : inclusion du fichier :       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_memory.h
+Remarque : inclusion du fichier :        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_memcpy_s.h
+Remarque : inclusion du fichier :         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\errno.h
+Remarque : inclusion du fichier :         C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\vcruntime_string.h
+Remarque : inclusion du fichier :       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_wstring.h
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\cwchar
+Remarque : inclusion du fichier :      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\cstdio
+Remarque : inclusion du fichier :       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\stdio.h
+Remarque : inclusion du fichier :        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_wstdio.h
+Remarque : inclusion du fichier :         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_stdio_config.h
+Remarque : inclusion du fichier :      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\wchar.h
+Remarque : inclusion du fichier :       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_wconio.h
+Remarque : inclusion du fichier :       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_wctype.h
+Remarque : inclusion du fichier :       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_wdirect.h
+Remarque : inclusion du fichier :       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_wio.h
+Remarque : inclusion du fichier :        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_share.h
+Remarque : inclusion du fichier :       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_wprocess.h
+Remarque : inclusion du fichier :       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_wtime.h
+Remarque : inclusion du fichier :       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\sys/stat.h
+Remarque : inclusion du fichier :        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\sys/types.h
+Remarque : inclusion du fichier :       C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\intrin.h
+Remarque : inclusion du fichier :        C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\intrin0.inl.h
+Remarque : inclusion du fichier :        C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\setjmp.h
+Remarque : inclusion du fichier :        C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\immintrin.h
+Remarque : inclusion du fichier :         C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\wmmintrin.h
+Remarque : inclusion du fichier :          C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\nmmintrin.h
+Remarque : inclusion du fichier :           C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\smmintrin.h
+Remarque : inclusion du fichier :            C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\tmmintrin.h
+Remarque : inclusion du fichier :             C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\pmmintrin.h
+Remarque : inclusion du fichier :              C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\emmintrin.h
+Remarque : inclusion du fichier :               C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xmmintrin.h
+Remarque : inclusion du fichier :                C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\mmintrin.h
+Remarque : inclusion du fichier :                C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\malloc.h
+Remarque : inclusion du fichier :         C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\zmmintrin.h
+Remarque : inclusion du fichier :        C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\ammintrin.h
+Remarque : inclusion du fichier :   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\__msvc_int128.hpp
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\__msvc_bit_utils.hpp
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\intrin0.h
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\limits
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\cfloat
+Remarque : inclusion du fichier :      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\float.h
+Remarque : inclusion du fichier :   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\__msvc_minmax.hpp
+Remarque : inclusion du fichier :   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xmemory
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\new
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\exception
+Remarque : inclusion du fichier :      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\vcruntime_exception.h
+Remarque : inclusion du fichier :       C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\eh.h
+Remarque : inclusion du fichier :        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_terminate.h
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xatomic.h
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\tuple
+Remarque : inclusion du fichier :  C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\array
+Remarque : inclusion du fichier :  C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\memory
+Remarque : inclusion du fichier :   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\iosfwd
+Remarque : inclusion du fichier :   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\typeinfo
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\vcruntime_typeinfo.h
+Remarque : inclusion du fichier :   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\atomic
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xthreads.h
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\__msvc_threads_core.hpp
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xtimec.h
+Remarque : inclusion du fichier :      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\ctime
+Remarque : inclusion du fichier :       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\time.h
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xatomic_wait.h
+Remarque : inclusion du fichier :  C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\string
+Remarque : inclusion du fichier :   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\cctype
+Remarque : inclusion du fichier :    C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\ctype.h
+Remarque : inclusion du fichier :   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xstring
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\__msvc_sanitizer_annotate_container.hpp
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\__msvc_string_view.hpp
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xpolymorphic_allocator.h
+Remarque : inclusion du fichier :  C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\string_view
+Remarque : inclusion du fichier :  C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\vector
+Remarque : inclusion du fichier :  D:\Projet IA\Dual screen\eden-duo\src\.\common/cityhash.h
+Remarque : inclusion du fichier :   D:\Projet IA\Dual screen\eden-duo\src\.\common/common_types.h
+Remarque : inclusion du fichier :  D:\Projet IA\Dual screen\eden-duo\src\.\core/mods/mod_font_pages.h
+Remarque : inclusion du fichier :   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\chrono
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\__msvc_chrono.hpp
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\ratio
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\system_error
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\__msvc_system_error_abi.hpp
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\cerrno
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\stdexcept
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xcall_once.h
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xerrc.h
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xfilesystem_abi.h
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\__msvc_tzdb.hpp
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\cmath
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\format
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\__msvc_format_ucd_tables.hpp
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\__msvc_formatter.hpp
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\__msvc_print.hpp
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\__msvc_ranges_tuple_formatter.hpp
+Remarque : inclusion du fichier :      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\bit
+Remarque : inclusion du fichier :      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\iterator
+Remarque : inclusion du fichier :      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xlocale
+Remarque : inclusion du fichier :       C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xfacet
+Remarque : inclusion du fichier :       C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xlocinfo
+Remarque : inclusion du fichier :        C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\__msvc_xlocinfo_types.hpp
+Remarque : inclusion du fichier :        C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\clocale
+Remarque : inclusion du fichier :         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\locale.h
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\charconv
+Remarque : inclusion du fichier :      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xbit_ops.h
+Remarque : inclusion du fichier :      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xcharconv.h
+Remarque : inclusion du fichier :      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xcharconv_ryu.h
+Remarque : inclusion du fichier :       C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xcharconv_ryu_tables.h
+Remarque : inclusion du fichier :      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xcharconv_tables.h
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\locale
+Remarque : inclusion du fichier :      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xlocbuf
+Remarque : inclusion du fichier :       C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\streambuf
+Remarque : inclusion du fichier :        C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xiosbase
+Remarque : inclusion du fichier :         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\share.h
+Remarque : inclusion du fichier :      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xlocmes
+Remarque : inclusion du fichier :      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xlocmon
+Remarque : inclusion du fichier :       C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xlocnum
+Remarque : inclusion du fichier :      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xloctime
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\forward_list
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\iomanip
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\istream
+Remarque : inclusion du fichier :      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\__msvc_ostream.hpp
+Remarque : inclusion du fichier :       C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\ios
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\optional
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xsmf_control.h
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\sstream
+Remarque : inclusion du fichier :   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\condition_variable
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\mutex
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\thread
+Remarque : inclusion du fichier :      C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\process.h
+Remarque : inclusion du fichier :       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_startup.h
+Remarque : inclusion du fichier :        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\math.h
+Remarque : inclusion du fichier :        C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\vcruntime_startup.h
+Remarque : inclusion du fichier :      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\stop_token
+Remarque : inclusion du fichier :   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\deque
+Remarque : inclusion du fichier :   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\functional
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\unordered_map
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xhash
+Remarque : inclusion du fichier :      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\list
+Remarque : inclusion du fichier :      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xnode_handle.h
+Remarque : inclusion du fichier :   C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\unordered_set
+Remarque : inclusion du fichier :   D:\Projet IA\Dual screen\eden-duo\src\.\core/mods/mod_ui.h
+Remarque : inclusion du fichier :    C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\span
+Remarque : inclusion du fichier :    D:\Projet IA\Dual screen\eden-duo\src\.\core/mods/mod_types.h
+Remarque : inclusion du fichier :     C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\map
+Remarque : inclusion du fichier :      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xtree
+Remarque : inclusion du fichier :     D:\Projet IA\Dual screen\eden-duo\.cache\cpm\unordered_dense\7b55cab841\include\ankerl/unordered_dense.h
+Remarque : inclusion du fichier :      D:\Projet IA\Dual screen\eden-duo\.cache\cpm\unordered_dense\7b55cab841\include\ankerl\stl.h
+Remarque : inclusion du fichier :       C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\memory_resource
+Remarque : inclusion du fichier :     D:\Projet IA\Dual screen\eden-duo\src\.\core/file_sys/vfs/vfs_types.h
+Remarque : inclusion du fichier :     D:\Projet IA\Dual screen\eden-duo\src\.\core/mods/mod_types_action.h
+Remarque : inclusion du fichier :      D:\Projet IA\Dual screen\eden-duo\src\.\core/mods/mod_types_page.h
+Remarque : inclusion du fichier :       D:\Projet IA\Dual screen\eden-duo\src\.\core/mods/mod_types_points.h
+Remarque : inclusion du fichier :        D:\Projet IA\Dual screen\eden-duo\src\.\core/mods/mod_expr.h
+Remarque : inclusion du fichier :     D:\Projet IA\Dual screen\eden-duo\src\.\core/mods/mod_types_composite.h
+Remarque : inclusion du fichier :     D:\Projet IA\Dual screen\eden-duo\src\.\core/mods/mod_types_guest.h
+Remarque : inclusion du fichier :     D:\Projet IA\Dual screen\eden-duo\src\.\core/mods/mod_types_map.h
+Remarque : inclusion du fichier :     D:\Projet IA\Dual screen\eden-duo\src\.\core/mods/mod_types_nav.h
+Remarque : inclusion du fichier :     D:\Projet IA\Dual screen\eden-duo\src\.\core/mods/mod_types_text.h
+Remarque : inclusion du fichier :    D:\Projet IA\Dual screen\eden-duo\src\.\video_core/dsmod/aux_routing.h
+Remarque : inclusion du fichier :     D:\Projet IA\Dual screen\eden-duo\src\.\common/dsmod_dev_tools.h
+Remarque : inclusion du fichier :     D:\Projet IA\Dual screen\eden-duo\src\.\common/logging.h
+Remarque : inclusion du fichier :      D:\Projet IA\Dual screen\eden-duo\.cache\cpm\fmt\12.1.0\include\fmt/ranges.h
+Remarque : inclusion du fichier :       D:\Projet IA\Dual screen\eden-duo\.cache\cpm\fmt\12.1.0\include\fmt\format.h
+Remarque : inclusion du fichier :        D:\Projet IA\Dual screen\eden-duo\.cache\cpm\fmt\12.1.0\include\fmt\base.h
+Remarque : inclusion du fichier :      D:\Projet IA\Dual screen\eden-duo\src\.\common/swap.h
+Remarque : inclusion du fichier :      D:\Projet IA\Dual screen\eden-duo\src\common\log_classes.inc
+Remarque : inclusion du fichier :  D:\Projet IA\Dual screen\eden-duo\src\.\core/mods/mod_msbt.h
+D:\Projet IA\Dual screen\eden-duo\src\core\mods\mod_ui_text.cpp(412): warning C4458: la déclaration de 'h' masque le membre de classe
+D:\Projet IA\Dual screen\eden-duo\src\.\core/mods/mod_ui.h(342): note: voir la déclaration de 'Core::Mods::Canvas::h'
+D:\Projet IA\Dual screen\eden-duo\src\core\mods\mod_ui_text.cpp(592): warning C4458: la déclaration de 'w' masque le membre de classe
+D:\Projet IA\Dual screen\eden-duo\src\.\core/mods/mod_ui.h(341): note: voir la déclaration de 'Core::Mods::Canvas::w'
+D:\Projet IA\Dual screen\eden-duo\src\core\mods\mod_ui_text.cpp(592): warning C4458: la déclaration de 'h' masque le membre de classe
+D:\Projet IA\Dual screen\eden-duo\src\.\core/mods/mod_ui.h(342): note: voir la déclaration de 'Core::Mods::Canvas::h'
+[2/4] Linking CXX static library src\core\core.lib
+[3/4] Linking CXX executable bin\eden.exe

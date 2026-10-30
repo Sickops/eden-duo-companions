@@ -1,0 +1,3493 @@
+{
+ "format": 1,
+ "title_id": "0100F43008C44000",
+ "name": "Pokemon Legends Z-A dual screen",
+ "_about": "Five tabs (equipe, pokedex, boite, carte, dresseur) read from the player's own save by the native module. Game art and French names are decoded from the player romfs. Only a redistributable font is included.",
+ "min_runtime": 19,
+ "font": "file:font/za.mfnt",
+ "font_atlas": "file:font/za.png",
+ "requires_module": true,
+ "canvas_w": 1240,
+ "canvas_h": 1080,
+ "background": "#FF070A11",
+ "nav": {
+  "color": "#FFE33B3B",
+  "frame": 4
+ },
+ "tables": {
+  "natures": [
+   "Hardi",
+   "Solitaire",
+   "Brave",
+   "Rigide",
+   "Mauvais",
+   "Assuré",
+   "Docile",
+   "Relax",
+   "Malin",
+   "Lâche",
+   "Timide",
+   "Pressé",
+   "Sérieux",
+   "Jovial",
+   "Naïf",
+   "Modeste",
+   "Doux",
+   "Calme",
+   "Pudique",
+   "Foufou",
+   "Serein",
+   "Gentil",
+   "Malpoli",
+   "Prudent",
+   "Bizarre"
+  ]
+ },
+ "actions": {
+  "go_team": {
+   "kind": "page",
+   "page": "team",
+   "transition": "fade",
+   "duration_ms": 150
+  },
+  "go_dex": {
+   "kind": "page",
+   "page": "dex",
+   "transition": "fade",
+   "duration_ms": 150
+  },
+  "go_box": {
+   "kind": "page",
+   "page": "box",
+   "transition": "fade",
+   "duration_ms": 150
+  },
+  "go_map": {
+   "kind": "page",
+   "page": "map",
+   "transition": "fade",
+   "duration_ms": 150
+  },
+  "go_trainer": {
+   "kind": "page",
+   "page": "trainer",
+   "transition": "fade",
+   "duration_ms": 150
+  },
+  "box_prev": {
+   "kind": "module",
+   "action": "box_prev"
+  },
+  "box_next": {
+   "kind": "module",
+   "action": "box_next"
+  },
+  "box_follow": {
+   "kind": "module",
+   "action": "box_follow"
+  },
+  "refresh": {
+   "kind": "module",
+   "action": "refresh"
+  }
+ },
+ "pages": [
+  {
+   "id": "team",
+   "title": "Equipe",
+   "nav_order": [
+    "tab_team",
+    "tab_dex",
+    "tab_box",
+    "tab_map",
+    "tab_trainer"
+   ],
+   "widgets": [
+    {
+     "type": "rect",
+     "rect": [
+      0,
+      0,
+      1240,
+      108
+     ],
+     "bg": "#FF101623",
+     "color": "#00000000"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      0,
+      104,
+      1240,
+      4
+     ],
+     "bg": "#FFE33B3B",
+     "color": "#00000000",
+     "frame": 0
+    },
+    {
+     "type": "label",
+     "rect": [
+      28,
+      12,
+      0,
+      30
+     ],
+     "text": "LÉGENDES POKÉMON Z-A",
+     "text_scale": 6,
+     "color": "#FFE8EEF7",
+     "align": "left"
+    },
+    {
+     "type": "label",
+     "rect": [
+      30,
+      54,
+      0,
+      15
+     ],
+     "text": "ÉQUIPE",
+     "text_scale": 3,
+     "color": "#FFF2C33D",
+     "align": "left"
+    },
+    {
+     "type": "label",
+     "rect": [
+      34,
+      78,
+      0,
+      15
+     ],
+     "text": "",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "left",
+     "bind_text": "za.status"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      20,
+      84,
+      8,
+      8
+     ],
+     "bg": "#FF3FD07A",
+     "color": "#00000000",
+     "frame": 0,
+     "need_bind": "za.ready"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      20,
+      84,
+      8,
+      8
+     ],
+     "bg": "#FFE33B3B",
+     "color": "#00000000",
+     "frame": 0,
+     "need_bind": "!za.ready"
+    },
+    {
+     "type": "label",
+     "rect": [
+      1212,
+      12,
+      0,
+      15
+     ],
+     "text": "DRESSEUR",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "right"
+    },
+    {
+     "type": "label",
+     "rect": [
+      1212,
+      34,
+      0,
+      25
+     ],
+     "text": "",
+     "text_scale": 5,
+     "color": "#FFE8EEF7",
+     "align": "right",
+     "bind_text": "za.ot"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      24,
+      126,
+      590,
+      250
+     ],
+     "bg": "#FF141B28",
+     "color": "#FF232C3E",
+     "repeat": 6,
+     "repeat_cols": 2,
+     "repeat_dx": 602,
+     "repeat_row_dy": 262
+    },
+    {
+     "type": "rect",
+     "rect": [
+      24,
+      126,
+      6,
+      250
+     ],
+     "bg": "#FFF2C33D",
+     "color": "#00000000",
+     "frame": 0,
+     "repeat": 6,
+     "repeat_cols": 2,
+     "repeat_dx": 602,
+     "repeat_row_dy": 262
+    },
+    {
+     "type": "image",
+     "rect": [
+      440,
+      180,
+      144,
+      144
+     ],
+     "src_format": "module:icon/%04d",
+     "bind": "za.p{i}.icon",
+     "repeat": 6,
+     "repeat_cols": 2,
+     "repeat_dx": 602,
+     "repeat_row_dy": 262,
+     "need_bind": "za.p{i}.v"
+    },
+    {
+     "type": "label",
+     "rect": [
+      48,
+      226,
+      0,
+      20
+     ],
+     "text": "",
+     "text_scale": 4,
+     "color": "#FFF2C33D",
+     "align": "left",
+     "bind_text": "za.p{i}.sname",
+     "wrap_width": 380,
+     "max_lines": 1,
+     "fit_text": true,
+     "repeat": 6,
+     "repeat_cols": 2,
+     "repeat_dx": 602,
+     "repeat_row_dy": 262,
+     "need_bind": "za.p{i}.v"
+    },
+    {
+     "type": "label",
+     "rect": [
+      48,
+      140,
+      0,
+      30
+     ],
+     "text": "",
+     "text_scale": 6,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "bind_text": "za.p{i}.name",
+     "wrap_width": 380,
+     "max_lines": 1,
+     "fit_text": true,
+     "repeat": 6,
+     "repeat_cols": 2,
+     "repeat_dx": 602,
+     "repeat_row_dy": 262,
+     "need_bind": "za.p{i}.v"
+    },
+    {
+     "type": "label",
+     "rect": [
+      48,
+      140,
+      0,
+      25
+     ],
+     "text": "VIDE",
+     "text_scale": 5,
+     "color": "#FF8492A8",
+     "align": "left",
+     "repeat": 6,
+     "repeat_cols": 2,
+     "repeat_dx": 602,
+     "repeat_row_dy": 262,
+     "hide_bind": "za.p{i}.v",
+     "hide_eq": 1
+    },
+    {
+     "type": "value",
+     "rect": [
+      48,
+      184,
+      0,
+      20
+     ],
+     "bind": "za.p{i}.sp",
+     "text_scale": 4,
+     "color": "#FFF2C33D",
+     "align": "left",
+     "text": "NO.",
+     "pad": 3,
+     "repeat": 6,
+     "repeat_cols": 2,
+     "repeat_dx": 602,
+     "repeat_row_dy": 262,
+     "need_bind": "za.p{i}.v"
+    },
+    {
+     "type": "value",
+     "rect": [
+      174,
+      184,
+      0,
+      20
+     ],
+     "bind": "za.p{i}.lvl",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "text": "LV ",
+     "repeat": 6,
+     "repeat_cols": 2,
+     "repeat_dx": 602,
+     "repeat_row_dy": 262,
+     "need_bind": "za.p{i}.v"
+    },
+    {
+     "type": "value",
+     "rect": [
+      260,
+      184,
+      0,
+      20
+     ],
+     "bind": "za.p{i}.g",
+     "text_scale": 4,
+     "color": "#FF57A9F5",
+     "align": "left",
+     "names": [
+      "M",
+      "F",
+      "-"
+     ],
+     "repeat": 6,
+     "repeat_cols": 2,
+     "repeat_dx": 602,
+     "repeat_row_dy": 262,
+     "need_bind": "za.p{i}.v"
+    },
+    {
+     "type": "value",
+     "rect": [
+      324,
+      184,
+      0,
+      20
+     ],
+     "bind": "za.p{i}.nature",
+     "text_scale": 4,
+     "color": "#FF8492A8",
+     "align": "left",
+     "table": "natures",
+     "repeat": 6,
+     "repeat_cols": 2,
+     "repeat_dx": 602,
+     "repeat_row_dy": 262,
+     "need_bind": "za.p{i}.v"
+    },
+    {
+     "type": "label",
+     "rect": [
+      48,
+      286,
+      0,
+      15
+     ],
+     "text": "PV",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "left",
+     "repeat": 6,
+     "repeat_cols": 2,
+     "repeat_dx": 602,
+     "repeat_row_dy": 262,
+     "need_bind": "za.p{i}.v"
+    },
+    {
+     "type": "bar",
+     "rect": [
+      48,
+      308,
+      280,
+      24
+     ],
+     "bind": "za.p{i}.hp",
+     "color": "#FF3FD07A",
+     "bg": "#FF0B111C",
+     "frame": 0,
+     "max_bind": "za.p{i}.hpmax",
+     "repeat": 6,
+     "repeat_cols": 2,
+     "repeat_dx": 602,
+     "repeat_row_dy": 262,
+     "need_bind": "za.p{i}.v"
+    },
+    {
+     "type": "value",
+     "rect": [
+      48,
+      342,
+      0,
+      20
+     ],
+     "bind": "za.p{i}.hp",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "max_bind": "za.p{i}.hpmax",
+     "max_sep": "/",
+     "repeat": 6,
+     "repeat_cols": 2,
+     "repeat_dx": 602,
+     "repeat_row_dy": 262,
+     "need_bind": "za.p{i}.v"
+    },
+    {
+     "type": "label",
+     "rect": [
+      590,
+      142,
+      0,
+      15
+     ],
+     "text": "SHINY",
+     "text_scale": 3,
+     "color": "#FFF2C33D",
+     "align": "right",
+     "need_bind": "za.p{i}.shiny",
+     "repeat": 6,
+     "repeat_cols": 2,
+     "repeat_dx": 602,
+     "repeat_row_dy": 262
+    },
+    {
+     "type": "value",
+     "rect": [
+      24,
+      906,
+      0,
+      20
+     ],
+     "bind": "za.party.count",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "text": "MEMBRES "
+    },
+    {
+     "type": "label",
+     "rect": [
+      200,
+      906,
+      0,
+      20
+     ],
+     "text": "/ 6",
+     "text_scale": 4,
+     "color": "#FF8492A8",
+     "align": "left"
+    },
+    {
+     "type": "value",
+     "rect": [
+      360,
+      906,
+      0,
+      20
+     ],
+     "bind": "za.dex.known",
+     "text_scale": 4,
+     "color": "#FF8492A8",
+     "align": "left",
+     "text": "POKÉDEX VUS "
+    },
+    {
+     "type": "value",
+     "rect": [
+      700,
+      906,
+      0,
+      20
+     ],
+     "bind": "za.box.used",
+     "text_scale": 4,
+     "color": "#FF8492A8",
+     "align": "left",
+     "text": "EN BOITE "
+    },
+    {
+     "type": "value",
+     "rect": [
+      1000,
+      906,
+      0,
+      20
+     ],
+     "bind": "za.play.h",
+     "text_scale": 4,
+     "color": "#FF8492A8",
+     "align": "left",
+     "text": "TEMPS ",
+     "pad": 3,
+     "suffix": "H"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      0,
+      108,
+      1240,
+      850
+     ],
+     "bg": "#F0070A11",
+     "color": "#00000000",
+     "frame": 0,
+     "input_block": true,
+     "need_bind": "!za.ready"
+    },
+    {
+     "type": "label",
+     "rect": [
+      620,
+      360,
+      0,
+      30
+     ],
+     "text": "SAUVEGARDE NON LUE",
+     "text_scale": 6,
+     "color": "#FFE33B3B",
+     "align": "center",
+     "need_bind": "!za.ready"
+    },
+    {
+     "type": "label",
+     "rect": [
+      620,
+      430,
+      0,
+      20
+     ],
+     "text": "Lancez le jeu et sauvegardez une premiere fois.",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "center",
+     "need_bind": "!za.ready"
+    },
+    {
+     "type": "label",
+     "rect": [
+      620,
+      490,
+      0,
+      20
+     ],
+     "text": "",
+     "text_scale": 4,
+     "color": "#FF8492A8",
+     "align": "center",
+     "bind_text": "za.status",
+     "need_bind": "!za.ready"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      0,
+      958,
+      1240,
+      122
+     ],
+     "bg": "#FF101623",
+     "color": "#00000000"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      0,
+      958,
+      1240,
+      3
+     ],
+     "bg": "#FF232C3E",
+     "color": "#00000000",
+     "frame": 0
+    },
+    {
+     "id": "tab_team",
+     "type": "button",
+     "rect": [
+      12,
+      984,
+      228,
+      76
+     ],
+     "text": "ÉQUIPE",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FFE33B3B",
+     "color": "#FFFFFFFF",
+     "border": 0,
+     "on_tap": "go_team"
+    },
+    {
+     "id": "tab_dex",
+     "type": "button",
+     "rect": [
+      256,
+      984,
+      228,
+      76
+     ],
+     "text": "POKÉDEX",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FF1A2231",
+     "color": "#FF8492A8",
+     "border": 2,
+     "on_tap": "go_dex"
+    },
+    {
+     "id": "tab_box",
+     "type": "button",
+     "rect": [
+      500,
+      984,
+      228,
+      76
+     ],
+     "text": "BOÎTE",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FF1A2231",
+     "color": "#FF8492A8",
+     "border": 2,
+     "on_tap": "go_box"
+    },
+    {
+     "id": "tab_map",
+     "type": "button",
+     "rect": [
+      744,
+      984,
+      228,
+      76
+     ],
+     "text": "CARTE",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FF1A2231",
+     "color": "#FF8492A8",
+     "border": 2,
+     "on_tap": "go_map"
+    },
+    {
+     "id": "tab_trainer",
+     "type": "button",
+     "rect": [
+      988,
+      984,
+      228,
+      76
+     ],
+     "text": "DRESSEUR",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FF1A2231",
+     "color": "#FF8492A8",
+     "border": 2,
+     "on_tap": "go_trainer"
+    }
+   ]
+  },
+  {
+   "id": "dex",
+   "title": "Pokedex",
+   "nav_order": [
+    "tab_team",
+    "tab_dex",
+    "tab_box",
+    "tab_map",
+    "tab_trainer"
+   ],
+   "widgets": [
+    {
+     "type": "rect",
+     "rect": [
+      0,
+      0,
+      1240,
+      108
+     ],
+     "bg": "#FF101623",
+     "color": "#00000000"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      0,
+      104,
+      1240,
+      4
+     ],
+     "bg": "#FFE33B3B",
+     "color": "#00000000",
+     "frame": 0
+    },
+    {
+     "type": "label",
+     "rect": [
+      28,
+      12,
+      0,
+      30
+     ],
+     "text": "LÉGENDES POKÉMON Z-A",
+     "text_scale": 6,
+     "color": "#FFE8EEF7",
+     "align": "left"
+    },
+    {
+     "type": "label",
+     "rect": [
+      30,
+      54,
+      0,
+      15
+     ],
+     "text": "POKÉDEX",
+     "text_scale": 3,
+     "color": "#FFF2C33D",
+     "align": "left"
+    },
+    {
+     "type": "label",
+     "rect": [
+      34,
+      78,
+      0,
+      15
+     ],
+     "text": "",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "left",
+     "bind_text": "za.status"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      20,
+      84,
+      8,
+      8
+     ],
+     "bg": "#FF3FD07A",
+     "color": "#00000000",
+     "frame": 0,
+     "need_bind": "za.ready"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      20,
+      84,
+      8,
+      8
+     ],
+     "bg": "#FFE33B3B",
+     "color": "#00000000",
+     "frame": 0,
+     "need_bind": "!za.ready"
+    },
+    {
+     "type": "label",
+     "rect": [
+      1212,
+      12,
+      0,
+      15
+     ],
+     "text": "DRESSEUR",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "right"
+    },
+    {
+     "type": "label",
+     "rect": [
+      1212,
+      34,
+      0,
+      25
+     ],
+     "text": "",
+     "text_scale": 5,
+     "color": "#FFE8EEF7",
+     "align": "right",
+     "bind_text": "za.ot"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      24,
+      126,
+      388,
+      150
+     ],
+     "bg": "#FF141B28",
+     "color": "#FF232C3E"
+    },
+    {
+     "type": "label",
+     "rect": [
+      46,
+      144,
+      0,
+      15
+     ],
+     "text": "ATTRAPÉS",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "left"
+    },
+    {
+     "type": "value",
+     "rect": [
+      46,
+      178,
+      0,
+      40
+     ],
+     "bind": "za.dex.caught",
+     "text_scale": 8,
+     "color": "#FFF2C33D",
+     "align": "left"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      432,
+      126,
+      388,
+      150
+     ],
+     "bg": "#FF141B28",
+     "color": "#FF232C3E"
+    },
+    {
+     "type": "label",
+     "rect": [
+      454,
+      144,
+      0,
+      15
+     ],
+     "text": "VUS",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "left"
+    },
+    {
+     "type": "value",
+     "rect": [
+      454,
+      178,
+      0,
+      40
+     ],
+     "bind": "za.dex.known",
+     "text_scale": 8,
+     "color": "#FF57A9F5",
+     "align": "left"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      840,
+      126,
+      388,
+      150
+     ],
+     "bg": "#FF141B28",
+     "color": "#FF232C3E"
+    },
+    {
+     "type": "label",
+     "rect": [
+      862,
+      144,
+      0,
+      15
+     ],
+     "text": "TOTAL NATIONAL",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "left"
+    },
+    {
+     "type": "value",
+     "rect": [
+      862,
+      178,
+      0,
+      40
+     ],
+     "bind": "za.dex.total",
+     "text_scale": 8,
+     "color": "#FFE8EEF7",
+     "align": "left"
+    },
+    {
+     "type": "value",
+     "rect": [
+      40,
+      288,
+      0,
+      15
+     ],
+     "bind": "za.dex.seen",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "left",
+     "text": "VUS NON ATTRAPES "
+    },
+    {
+     "type": "label",
+     "rect": [
+      40,
+      328,
+      0,
+      20
+     ],
+     "text": "GEN 1",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left"
+    },
+    {
+     "type": "bar",
+     "rect": [
+      150,
+      324,
+      720,
+      32
+     ],
+     "bind": "za.dex.g0",
+     "color": "#FF57A9F5",
+     "bg": "#FF0B111C",
+     "frame": 0,
+     "max_bind": "za.dex.g0.max"
+    },
+    {
+     "type": "value",
+     "rect": [
+      900,
+      328,
+      0,
+      20
+     ],
+     "bind": "za.dex.g0",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "max_bind": "za.dex.g0.max",
+     "max_sep": " / "
+    },
+    {
+     "type": "label",
+     "rect": [
+      40,
+      396,
+      0,
+      20
+     ],
+     "text": "GEN 2",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left"
+    },
+    {
+     "type": "bar",
+     "rect": [
+      150,
+      392,
+      720,
+      32
+     ],
+     "bind": "za.dex.g1",
+     "color": "#FF57A9F5",
+     "bg": "#FF0B111C",
+     "frame": 0,
+     "max_bind": "za.dex.g1.max"
+    },
+    {
+     "type": "value",
+     "rect": [
+      900,
+      396,
+      0,
+      20
+     ],
+     "bind": "za.dex.g1",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "max_bind": "za.dex.g1.max",
+     "max_sep": " / "
+    },
+    {
+     "type": "label",
+     "rect": [
+      40,
+      464,
+      0,
+      20
+     ],
+     "text": "GEN 3",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left"
+    },
+    {
+     "type": "bar",
+     "rect": [
+      150,
+      460,
+      720,
+      32
+     ],
+     "bind": "za.dex.g2",
+     "color": "#FF57A9F5",
+     "bg": "#FF0B111C",
+     "frame": 0,
+     "max_bind": "za.dex.g2.max"
+    },
+    {
+     "type": "value",
+     "rect": [
+      900,
+      464,
+      0,
+      20
+     ],
+     "bind": "za.dex.g2",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "max_bind": "za.dex.g2.max",
+     "max_sep": " / "
+    },
+    {
+     "type": "label",
+     "rect": [
+      40,
+      532,
+      0,
+      20
+     ],
+     "text": "GEN 4",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left"
+    },
+    {
+     "type": "bar",
+     "rect": [
+      150,
+      528,
+      720,
+      32
+     ],
+     "bind": "za.dex.g3",
+     "color": "#FF57A9F5",
+     "bg": "#FF0B111C",
+     "frame": 0,
+     "max_bind": "za.dex.g3.max"
+    },
+    {
+     "type": "value",
+     "rect": [
+      900,
+      532,
+      0,
+      20
+     ],
+     "bind": "za.dex.g3",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "max_bind": "za.dex.g3.max",
+     "max_sep": " / "
+    },
+    {
+     "type": "label",
+     "rect": [
+      40,
+      600,
+      0,
+      20
+     ],
+     "text": "GEN 5",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left"
+    },
+    {
+     "type": "bar",
+     "rect": [
+      150,
+      596,
+      720,
+      32
+     ],
+     "bind": "za.dex.g4",
+     "color": "#FF57A9F5",
+     "bg": "#FF0B111C",
+     "frame": 0,
+     "max_bind": "za.dex.g4.max"
+    },
+    {
+     "type": "value",
+     "rect": [
+      900,
+      600,
+      0,
+      20
+     ],
+     "bind": "za.dex.g4",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "max_bind": "za.dex.g4.max",
+     "max_sep": " / "
+    },
+    {
+     "type": "label",
+     "rect": [
+      40,
+      668,
+      0,
+      20
+     ],
+     "text": "GEN 6",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left"
+    },
+    {
+     "type": "bar",
+     "rect": [
+      150,
+      664,
+      720,
+      32
+     ],
+     "bind": "za.dex.g5",
+     "color": "#FF57A9F5",
+     "bg": "#FF0B111C",
+     "frame": 0,
+     "max_bind": "za.dex.g5.max"
+    },
+    {
+     "type": "value",
+     "rect": [
+      900,
+      668,
+      0,
+      20
+     ],
+     "bind": "za.dex.g5",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "max_bind": "za.dex.g5.max",
+     "max_sep": " / "
+    },
+    {
+     "type": "label",
+     "rect": [
+      40,
+      736,
+      0,
+      20
+     ],
+     "text": "GEN 7",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left"
+    },
+    {
+     "type": "bar",
+     "rect": [
+      150,
+      732,
+      720,
+      32
+     ],
+     "bind": "za.dex.g6",
+     "color": "#FF57A9F5",
+     "bg": "#FF0B111C",
+     "frame": 0,
+     "max_bind": "za.dex.g6.max"
+    },
+    {
+     "type": "value",
+     "rect": [
+      900,
+      736,
+      0,
+      20
+     ],
+     "bind": "za.dex.g6",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "max_bind": "za.dex.g6.max",
+     "max_sep": " / "
+    },
+    {
+     "type": "label",
+     "rect": [
+      40,
+      804,
+      0,
+      20
+     ],
+     "text": "GEN 8",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left"
+    },
+    {
+     "type": "bar",
+     "rect": [
+      150,
+      800,
+      720,
+      32
+     ],
+     "bind": "za.dex.g7",
+     "color": "#FF57A9F5",
+     "bg": "#FF0B111C",
+     "frame": 0,
+     "max_bind": "za.dex.g7.max"
+    },
+    {
+     "type": "value",
+     "rect": [
+      900,
+      804,
+      0,
+      20
+     ],
+     "bind": "za.dex.g7",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "max_bind": "za.dex.g7.max",
+     "max_sep": " / "
+    },
+    {
+     "type": "label",
+     "rect": [
+      40,
+      872,
+      0,
+      20
+     ],
+     "text": "GEN 9",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left"
+    },
+    {
+     "type": "bar",
+     "rect": [
+      150,
+      868,
+      720,
+      32
+     ],
+     "bind": "za.dex.g8",
+     "color": "#FF57A9F5",
+     "bg": "#FF0B111C",
+     "frame": 0,
+     "max_bind": "za.dex.g8.max"
+    },
+    {
+     "type": "value",
+     "rect": [
+      900,
+      872,
+      0,
+      20
+     ],
+     "bind": "za.dex.g8",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "max_bind": "za.dex.g8.max",
+     "max_sep": " / "
+    },
+    {
+     "type": "label",
+     "rect": [
+      40,
+      916,
+      0,
+      15
+     ],
+     "text": "LES COMPTEURS SUIVENT LE DEX NATIONAL",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "left"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      0,
+      108,
+      1240,
+      850
+     ],
+     "bg": "#F0070A11",
+     "color": "#00000000",
+     "frame": 0,
+     "input_block": true,
+     "need_bind": "!za.ready"
+    },
+    {
+     "type": "label",
+     "rect": [
+      620,
+      360,
+      0,
+      30
+     ],
+     "text": "SAUVEGARDE NON LUE",
+     "text_scale": 6,
+     "color": "#FFE33B3B",
+     "align": "center",
+     "need_bind": "!za.ready"
+    },
+    {
+     "type": "label",
+     "rect": [
+      620,
+      430,
+      0,
+      20
+     ],
+     "text": "Lancez le jeu et sauvegardez une premiere fois.",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "center",
+     "need_bind": "!za.ready"
+    },
+    {
+     "type": "label",
+     "rect": [
+      620,
+      490,
+      0,
+      20
+     ],
+     "text": "",
+     "text_scale": 4,
+     "color": "#FF8492A8",
+     "align": "center",
+     "bind_text": "za.status",
+     "need_bind": "!za.ready"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      0,
+      958,
+      1240,
+      122
+     ],
+     "bg": "#FF101623",
+     "color": "#00000000"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      0,
+      958,
+      1240,
+      3
+     ],
+     "bg": "#FF232C3E",
+     "color": "#00000000",
+     "frame": 0
+    },
+    {
+     "id": "tab_team",
+     "type": "button",
+     "rect": [
+      12,
+      984,
+      228,
+      76
+     ],
+     "text": "ÉQUIPE",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FF1A2231",
+     "color": "#FF8492A8",
+     "border": 2,
+     "on_tap": "go_team"
+    },
+    {
+     "id": "tab_dex",
+     "type": "button",
+     "rect": [
+      256,
+      984,
+      228,
+      76
+     ],
+     "text": "POKÉDEX",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FFE33B3B",
+     "color": "#FFFFFFFF",
+     "border": 0,
+     "on_tap": "go_dex"
+    },
+    {
+     "id": "tab_box",
+     "type": "button",
+     "rect": [
+      500,
+      984,
+      228,
+      76
+     ],
+     "text": "BOÎTE",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FF1A2231",
+     "color": "#FF8492A8",
+     "border": 2,
+     "on_tap": "go_box"
+    },
+    {
+     "id": "tab_map",
+     "type": "button",
+     "rect": [
+      744,
+      984,
+      228,
+      76
+     ],
+     "text": "CARTE",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FF1A2231",
+     "color": "#FF8492A8",
+     "border": 2,
+     "on_tap": "go_map"
+    },
+    {
+     "id": "tab_trainer",
+     "type": "button",
+     "rect": [
+      988,
+      984,
+      228,
+      76
+     ],
+     "text": "DRESSEUR",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FF1A2231",
+     "color": "#FF8492A8",
+     "border": 2,
+     "on_tap": "go_trainer"
+    }
+   ]
+  },
+  {
+   "id": "box",
+   "title": "Boite",
+   "nav_order": [
+    "tab_team",
+    "tab_dex",
+    "tab_box",
+    "tab_map",
+    "tab_trainer",
+    "box_prev",
+    "box_next"
+   ],
+   "widgets": [
+    {
+     "type": "rect",
+     "rect": [
+      0,
+      0,
+      1240,
+      108
+     ],
+     "bg": "#FF101623",
+     "color": "#00000000"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      0,
+      104,
+      1240,
+      4
+     ],
+     "bg": "#FFE33B3B",
+     "color": "#00000000",
+     "frame": 0
+    },
+    {
+     "type": "label",
+     "rect": [
+      28,
+      12,
+      0,
+      30
+     ],
+     "text": "LÉGENDES POKÉMON Z-A",
+     "text_scale": 6,
+     "color": "#FFE8EEF7",
+     "align": "left"
+    },
+    {
+     "type": "label",
+     "rect": [
+      30,
+      54,
+      0,
+      15
+     ],
+     "text": "BOÎTE",
+     "text_scale": 3,
+     "color": "#FFF2C33D",
+     "align": "left"
+    },
+    {
+     "type": "label",
+     "rect": [
+      34,
+      78,
+      0,
+      15
+     ],
+     "text": "",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "left",
+     "bind_text": "za.status"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      20,
+      84,
+      8,
+      8
+     ],
+     "bg": "#FF3FD07A",
+     "color": "#00000000",
+     "frame": 0,
+     "need_bind": "za.ready"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      20,
+      84,
+      8,
+      8
+     ],
+     "bg": "#FFE33B3B",
+     "color": "#00000000",
+     "frame": 0,
+     "need_bind": "!za.ready"
+    },
+    {
+     "type": "label",
+     "rect": [
+      1212,
+      12,
+      0,
+      15
+     ],
+     "text": "DRESSEUR",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "right"
+    },
+    {
+     "type": "label",
+     "rect": [
+      1212,
+      34,
+      0,
+      25
+     ],
+     "text": "",
+     "text_scale": 5,
+     "color": "#FFE8EEF7",
+     "align": "right",
+     "bind_text": "za.ot"
+    },
+    {
+     "type": "value",
+     "rect": [
+      24,
+      128,
+      0,
+      30
+     ],
+     "bind": "za.box.view1",
+     "text_scale": 6,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "text": "BOÎTE ",
+     "max_bind": "za.box.count",
+     "max_sep": " / "
+    },
+    {
+     "type": "value",
+     "rect": [
+      420,
+      134,
+      0,
+      20
+     ],
+     "bind": "za.box.view.used",
+     "text_scale": 4,
+     "color": "#FF8492A8",
+     "align": "left",
+     "pad": 2
+    },
+    {
+     "type": "label",
+     "rect": [
+      452,
+      134,
+      0,
+      20
+     ],
+     "text": " / 30 PLACES",
+     "text_scale": 4,
+     "color": "#FF8492A8",
+     "align": "left"
+    },
+    {
+     "type": "value",
+     "rect": [
+      700,
+      134,
+      0,
+      20
+     ],
+     "bind": "za.box.current1",
+     "text_scale": 4,
+     "color": "#FF8492A8",
+     "align": "left",
+     "text": "JEU ",
+     "max_bind": "za.box.count",
+     "max_sep": " / "
+    },
+    {
+     "type": "button",
+     "rect": [
+      960,
+      124,
+      118,
+      56
+     ],
+     "text": "PREC",
+     "text_scale": 3,
+     "align": "center",
+     "bg": "#FF1A2231",
+     "color": "#FFE8EEF7",
+     "border": 2,
+     "on_tap": "box_prev",
+     "id": "box_prev"
+    },
+    {
+     "type": "button",
+     "rect": [
+      1090,
+      124,
+      126,
+      56
+     ],
+     "text": "SUIV",
+     "text_scale": 3,
+     "align": "center",
+     "bg": "#FF1A2231",
+     "color": "#FFE8EEF7",
+     "border": 2,
+     "on_tap": "box_next",
+     "id": "box_next"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      20,
+      196,
+      190,
+      132
+     ],
+     "bg": "#FF141B28",
+     "color": "#FF232C3E",
+     "repeat": 30,
+     "repeat_cols": 6,
+     "repeat_dx": 202,
+     "repeat_row_dy": 138
+    },
+    {
+     "type": "value",
+     "rect": [
+      30,
+      206,
+      0,
+      15
+     ],
+     "bind": "za.b{i}.sp",
+     "text_scale": 3,
+     "color": "#FFF2C33D",
+     "align": "left",
+     "text": "NO.",
+     "pad": 3,
+     "repeat": 30,
+     "repeat_cols": 6,
+     "repeat_dx": 202,
+     "repeat_row_dy": 138,
+     "need_bind": "za.b{i}.v"
+    },
+    {
+     "type": "image",
+     "rect": [
+      132,
+      228,
+      70,
+      70
+     ],
+     "src_format": "module:icon/%04d",
+     "bind": "za.b{i}.icon",
+     "repeat": 30,
+     "repeat_cols": 6,
+     "repeat_dx": 202,
+     "repeat_row_dy": 138,
+     "need_bind": "za.b{i}.v"
+    },
+    {
+     "type": "label",
+     "rect": [
+      30,
+      310,
+      0,
+      15
+     ],
+     "text": "",
+     "text_scale": 3,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "bind_text": "za.b{i}.sname",
+     "wrap_width": 170,
+     "max_lines": 1,
+     "fit_text": true,
+     "repeat": 30,
+     "repeat_cols": 6,
+     "repeat_dx": 202,
+     "repeat_row_dy": 138,
+     "need_bind": "za.b{i}.v"
+    },
+    {
+     "type": "label",
+     "rect": [
+      30,
+      234,
+      0,
+      15
+     ],
+     "text": "",
+     "text_scale": 3,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "bind_text": "za.b{i}.name",
+     "wrap_width": 98,
+     "max_lines": 1,
+     "fit_text": true,
+     "repeat": 30,
+     "repeat_cols": 6,
+     "repeat_dx": 202,
+     "repeat_row_dy": 138,
+     "need_bind": "za.b{i}.v"
+    },
+    {
+     "type": "value",
+     "rect": [
+      30,
+      268,
+      0,
+      15
+     ],
+     "bind": "za.b{i}.lvl",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "left",
+     "text": "LV ",
+     "repeat": 30,
+     "repeat_cols": 6,
+     "repeat_dx": 202,
+     "repeat_row_dy": 138,
+     "need_bind": "za.b{i}.v"
+    },
+    {
+     "type": "value",
+     "rect": [
+      106,
+      268,
+      0,
+      15
+     ],
+     "bind": "za.b{i}.g",
+     "text_scale": 3,
+     "color": "#FF57A9F5",
+     "align": "left",
+     "names": [
+      "M",
+      "F",
+      "-"
+     ],
+     "repeat": 30,
+     "repeat_cols": 6,
+     "repeat_dx": 202,
+     "repeat_row_dy": 138,
+     "need_bind": "za.b{i}.v"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      180,
+      206,
+      14,
+      14
+     ],
+     "bg": "#FFF2C33D",
+     "color": "#00000000",
+     "frame": 0,
+     "need_bind": "za.b{i}.shiny",
+     "repeat": 30,
+     "repeat_cols": 6,
+     "repeat_dx": 202,
+     "repeat_row_dy": 138
+    },
+    {
+     "type": "label",
+     "rect": [
+      115,
+      256,
+      0,
+      15
+     ],
+     "text": "VIDE",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "center",
+     "hide_bind": "za.b{i}.v",
+     "hide_eq": 1,
+     "repeat": 30,
+     "repeat_cols": 6,
+     "repeat_dx": 202,
+     "repeat_row_dy": 138
+    },
+    {
+     "type": "value",
+     "rect": [
+      24,
+      908,
+      0,
+      20
+     ],
+     "bind": "za.box.used",
+     "text_scale": 4,
+     "color": "#FF8492A8",
+     "align": "left",
+     "text": "TOTAL "
+    },
+    {
+     "type": "value",
+     "rect": [
+      300,
+      908,
+      0,
+      20
+     ],
+     "bind": "za.box.count",
+     "text_scale": 4,
+     "color": "#FF8492A8",
+     "align": "left",
+     "text": "BOÎTES "
+    },
+    {
+     "type": "value",
+     "rect": [
+      560,
+      908,
+      0,
+      20
+     ],
+     "bind": "za.box.unlocked",
+     "text_scale": 4,
+     "color": "#FF8492A8",
+     "align": "left",
+     "text": "DÉBLOQUÉES "
+    },
+    {
+     "type": "label",
+     "rect": [
+      820,
+      908,
+      0,
+      15
+     ],
+     "text": "PREC ET SUIV CHANGENT DE BOITE",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "left"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      0,
+      108,
+      1240,
+      850
+     ],
+     "bg": "#F0070A11",
+     "color": "#00000000",
+     "frame": 0,
+     "input_block": true,
+     "need_bind": "!za.ready"
+    },
+    {
+     "type": "label",
+     "rect": [
+      620,
+      360,
+      0,
+      30
+     ],
+     "text": "SAUVEGARDE NON LUE",
+     "text_scale": 6,
+     "color": "#FFE33B3B",
+     "align": "center",
+     "need_bind": "!za.ready"
+    },
+    {
+     "type": "label",
+     "rect": [
+      620,
+      430,
+      0,
+      20
+     ],
+     "text": "Lancez le jeu et sauvegardez une premiere fois.",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "center",
+     "need_bind": "!za.ready"
+    },
+    {
+     "type": "label",
+     "rect": [
+      620,
+      490,
+      0,
+      20
+     ],
+     "text": "",
+     "text_scale": 4,
+     "color": "#FF8492A8",
+     "align": "center",
+     "bind_text": "za.status",
+     "need_bind": "!za.ready"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      0,
+      958,
+      1240,
+      122
+     ],
+     "bg": "#FF101623",
+     "color": "#00000000"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      0,
+      958,
+      1240,
+      3
+     ],
+     "bg": "#FF232C3E",
+     "color": "#00000000",
+     "frame": 0
+    },
+    {
+     "id": "tab_team",
+     "type": "button",
+     "rect": [
+      12,
+      984,
+      228,
+      76
+     ],
+     "text": "ÉQUIPE",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FF1A2231",
+     "color": "#FF8492A8",
+     "border": 2,
+     "on_tap": "go_team"
+    },
+    {
+     "id": "tab_dex",
+     "type": "button",
+     "rect": [
+      256,
+      984,
+      228,
+      76
+     ],
+     "text": "POKÉDEX",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FF1A2231",
+     "color": "#FF8492A8",
+     "border": 2,
+     "on_tap": "go_dex"
+    },
+    {
+     "id": "tab_box",
+     "type": "button",
+     "rect": [
+      500,
+      984,
+      228,
+      76
+     ],
+     "text": "BOÎTE",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FFE33B3B",
+     "color": "#FFFFFFFF",
+     "border": 0,
+     "on_tap": "go_box"
+    },
+    {
+     "id": "tab_map",
+     "type": "button",
+     "rect": [
+      744,
+      984,
+      228,
+      76
+     ],
+     "text": "CARTE",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FF1A2231",
+     "color": "#FF8492A8",
+     "border": 2,
+     "on_tap": "go_map"
+    },
+    {
+     "id": "tab_trainer",
+     "type": "button",
+     "rect": [
+      988,
+      984,
+      228,
+      76
+     ],
+     "text": "DRESSEUR",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FF1A2231",
+     "color": "#FF8492A8",
+     "border": 2,
+     "on_tap": "go_trainer"
+    }
+   ]
+  },
+  {
+   "id": "map",
+   "title": "Carte",
+   "nav_order": [
+    "tab_team",
+    "tab_dex",
+    "tab_box",
+    "tab_map",
+    "tab_trainer"
+   ],
+   "widgets": [
+    {
+     "type": "rect",
+     "rect": [
+      0,
+      0,
+      1240,
+      108
+     ],
+     "bg": "#FF101623",
+     "color": "#00000000"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      0,
+      104,
+      1240,
+      4
+     ],
+     "bg": "#FFE33B3B",
+     "color": "#00000000",
+     "frame": 0
+    },
+    {
+     "type": "label",
+     "rect": [
+      28,
+      12,
+      0,
+      30
+     ],
+     "text": "LÉGENDES POKÉMON Z-A",
+     "text_scale": 6,
+     "color": "#FFE8EEF7",
+     "align": "left"
+    },
+    {
+     "type": "label",
+     "rect": [
+      30,
+      54,
+      0,
+      15
+     ],
+     "text": "CARTE",
+     "text_scale": 3,
+     "color": "#FFF2C33D",
+     "align": "left"
+    },
+    {
+     "type": "label",
+     "rect": [
+      34,
+      78,
+      0,
+      15
+     ],
+     "text": "",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "left",
+     "bind_text": "za.status"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      20,
+      84,
+      8,
+      8
+     ],
+     "bg": "#FF3FD07A",
+     "color": "#00000000",
+     "frame": 0,
+     "need_bind": "za.ready"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      20,
+      84,
+      8,
+      8
+     ],
+     "bg": "#FFE33B3B",
+     "color": "#00000000",
+     "frame": 0,
+     "need_bind": "!za.ready"
+    },
+    {
+     "type": "label",
+     "rect": [
+      1212,
+      12,
+      0,
+      15
+     ],
+     "text": "DRESSEUR",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "right"
+    },
+    {
+     "type": "label",
+     "rect": [
+      1212,
+      34,
+      0,
+      25
+     ],
+     "text": "",
+     "text_scale": 5,
+     "color": "#FFE8EEF7",
+     "align": "right",
+     "bind_text": "za.ot"
+    },
+    {
+     "type": "label",
+     "rect": [
+      40,
+      134,
+      0,
+      25
+     ],
+     "text": "PLAN D ILLUMIS",
+     "text_scale": 5,
+     "color": "#FFF2C33D",
+     "align": "left"
+    },
+    {
+     "type": "image",
+     "rect": [
+      40,
+      200,
+      640,
+      640
+     ],
+     "src": "module:map"
+    },
+    {
+     "type": "label",
+     "rect": [
+      740,
+      210,
+      0,
+      15
+     ],
+     "text": "SECTEUR",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "left"
+    },
+    {
+     "type": "label",
+     "rect": [
+      740,
+      242,
+      0,
+      25
+     ],
+     "text": "",
+     "text_scale": 5,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "bind_text": "za.map"
+    },
+    {
+     "type": "label",
+     "rect": [
+      740,
+      320,
+      0,
+      15
+     ],
+     "text": "DERNIÈRE SAUVEGARDE",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "left"
+    },
+    {
+     "type": "value",
+     "rect": [
+      740,
+      366,
+      0,
+      20
+     ],
+     "bind": "za.xi",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "text": "X "
+    },
+    {
+     "type": "value",
+     "rect": [
+      740,
+      412,
+      0,
+      20
+     ],
+     "bind": "za.yi",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "text": "Y "
+    },
+    {
+     "type": "value",
+     "rect": [
+      740,
+      458,
+      0,
+      20
+     ],
+     "bind": "za.zi",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "text": "Z "
+    },
+    {
+     "type": "label",
+     "rect": [
+      740,
+      560,
+      0,
+      15
+     ],
+     "text": "REPERE SUR LE PLAN",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "left"
+    },
+    {
+     "type": "label",
+     "rect": [
+      740,
+      590,
+      0,
+      20
+     ],
+     "text": "NON CALIBRÉ",
+     "text_scale": 4,
+     "color": "#FFF2C33D",
+     "align": "left"
+    },
+    {
+     "type": "label",
+     "rect": [
+      40,
+      916,
+      0,
+      15
+     ],
+     "text": "LA POSITION EST CELLE DE LA DERNIERE SAUVEGARDE",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "left"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      0,
+      108,
+      1240,
+      850
+     ],
+     "bg": "#F0070A11",
+     "color": "#00000000",
+     "frame": 0,
+     "input_block": true,
+     "need_bind": "!za.ready"
+    },
+    {
+     "type": "label",
+     "rect": [
+      620,
+      360,
+      0,
+      30
+     ],
+     "text": "SAUVEGARDE NON LUE",
+     "text_scale": 6,
+     "color": "#FFE33B3B",
+     "align": "center",
+     "need_bind": "!za.ready"
+    },
+    {
+     "type": "label",
+     "rect": [
+      620,
+      430,
+      0,
+      20
+     ],
+     "text": "Lancez le jeu et sauvegardez une premiere fois.",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "center",
+     "need_bind": "!za.ready"
+    },
+    {
+     "type": "label",
+     "rect": [
+      620,
+      490,
+      0,
+      20
+     ],
+     "text": "",
+     "text_scale": 4,
+     "color": "#FF8492A8",
+     "align": "center",
+     "bind_text": "za.status",
+     "need_bind": "!za.ready"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      0,
+      958,
+      1240,
+      122
+     ],
+     "bg": "#FF101623",
+     "color": "#00000000"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      0,
+      958,
+      1240,
+      3
+     ],
+     "bg": "#FF232C3E",
+     "color": "#00000000",
+     "frame": 0
+    },
+    {
+     "id": "tab_team",
+     "type": "button",
+     "rect": [
+      12,
+      984,
+      228,
+      76
+     ],
+     "text": "ÉQUIPE",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FF1A2231",
+     "color": "#FF8492A8",
+     "border": 2,
+     "on_tap": "go_team"
+    },
+    {
+     "id": "tab_dex",
+     "type": "button",
+     "rect": [
+      256,
+      984,
+      228,
+      76
+     ],
+     "text": "POKÉDEX",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FF1A2231",
+     "color": "#FF8492A8",
+     "border": 2,
+     "on_tap": "go_dex"
+    },
+    {
+     "id": "tab_box",
+     "type": "button",
+     "rect": [
+      500,
+      984,
+      228,
+      76
+     ],
+     "text": "BOÎTE",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FF1A2231",
+     "color": "#FF8492A8",
+     "border": 2,
+     "on_tap": "go_box"
+    },
+    {
+     "id": "tab_map",
+     "type": "button",
+     "rect": [
+      744,
+      984,
+      228,
+      76
+     ],
+     "text": "CARTE",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FFE33B3B",
+     "color": "#FFFFFFFF",
+     "border": 0,
+     "on_tap": "go_map"
+    },
+    {
+     "id": "tab_trainer",
+     "type": "button",
+     "rect": [
+      988,
+      984,
+      228,
+      76
+     ],
+     "text": "DRESSEUR",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FF1A2231",
+     "color": "#FF8492A8",
+     "border": 2,
+     "on_tap": "go_trainer"
+    }
+   ]
+  },
+  {
+   "id": "trainer",
+   "title": "Dresseur",
+   "nav_order": [
+    "tab_team",
+    "tab_dex",
+    "tab_box",
+    "tab_map",
+    "tab_trainer",
+    "refresh",
+    "box_follow",
+    "trainer_prev",
+    "trainer_next"
+   ],
+   "widgets": [
+    {
+     "type": "rect",
+     "rect": [
+      0,
+      0,
+      1240,
+      108
+     ],
+     "bg": "#FF101623",
+     "color": "#00000000"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      0,
+      104,
+      1240,
+      4
+     ],
+     "bg": "#FFE33B3B",
+     "color": "#00000000",
+     "frame": 0
+    },
+    {
+     "type": "label",
+     "rect": [
+      28,
+      12,
+      0,
+      30
+     ],
+     "text": "LÉGENDES POKÉMON Z-A",
+     "text_scale": 6,
+     "color": "#FFE8EEF7",
+     "align": "left"
+    },
+    {
+     "type": "label",
+     "rect": [
+      30,
+      54,
+      0,
+      15
+     ],
+     "text": "DRESSEUR",
+     "text_scale": 3,
+     "color": "#FFF2C33D",
+     "align": "left"
+    },
+    {
+     "type": "label",
+     "rect": [
+      34,
+      78,
+      0,
+      15
+     ],
+     "text": "",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "left",
+     "bind_text": "za.status"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      20,
+      84,
+      8,
+      8
+     ],
+     "bg": "#FF3FD07A",
+     "color": "#00000000",
+     "frame": 0,
+     "need_bind": "za.ready"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      20,
+      84,
+      8,
+      8
+     ],
+     "bg": "#FFE33B3B",
+     "color": "#00000000",
+     "frame": 0,
+     "need_bind": "!za.ready"
+    },
+    {
+     "type": "label",
+     "rect": [
+      1212,
+      12,
+      0,
+      15
+     ],
+     "text": "DRESSEUR",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "right"
+    },
+    {
+     "type": "label",
+     "rect": [
+      1212,
+      34,
+      0,
+      25
+     ],
+     "text": "",
+     "text_scale": 5,
+     "color": "#FFE8EEF7",
+     "align": "right",
+     "bind_text": "za.ot"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      24,
+      126,
+      590,
+      474
+     ],
+     "bg": "#FF141B28",
+     "color": "#FF232C3E"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      634,
+      126,
+      582,
+      474
+     ],
+     "bg": "#FF141B28",
+     "color": "#FF232C3E"
+    },
+    {
+     "type": "label",
+     "rect": [
+      48,
+      150,
+      0,
+      15
+     ],
+     "text": "DRESSEUR",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "left"
+    },
+    {
+     "type": "label",
+     "rect": [
+      48,
+      176,
+      0,
+      40
+     ],
+     "text": "",
+     "text_scale": 8,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "bind_text": "za.ot"
+    },
+    {
+     "type": "label",
+     "rect": [
+      48,
+      250,
+      0,
+      15
+     ],
+     "text": "IDENTIFIANTS",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "left"
+    },
+    {
+     "type": "value",
+     "rect": [
+      48,
+      274,
+      0,
+      20
+     ],
+     "bind": "za.tid",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "text": "TID ",
+     "pad": 5
+    },
+    {
+     "type": "value",
+     "rect": [
+      48,
+      306,
+      0,
+      20
+     ],
+     "bind": "za.sid",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "text": "SID ",
+     "pad": 5
+    },
+    {
+     "type": "value",
+     "rect": [
+      48,
+      344,
+      0,
+      20
+     ],
+     "bind": "za.lang",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "text": "LANGUE ",
+     "names": [
+      "-",
+      "JAP",
+      "ANG",
+      "FRA",
+      "ITA",
+      "ALL",
+      "-",
+      "ESP",
+      "COR",
+      "CHS",
+      "CHT"
+     ]
+    },
+    {
+     "type": "value",
+     "rect": [
+      300,
+      344,
+      0,
+      20
+     ],
+     "bind": "za.gender",
+     "text_scale": 4,
+     "color": "#FF8492A8",
+     "align": "left",
+     "text": "GENRE ",
+     "names": [
+      "GARCON",
+      "FILLE",
+      "-"
+     ]
+    },
+    {
+     "type": "label",
+     "rect": [
+      48,
+      392,
+      0,
+      15
+     ],
+     "text": "ARGENT",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "left"
+    },
+    {
+     "type": "value",
+     "rect": [
+      48,
+      416,
+      0,
+      35
+     ],
+     "bind": "za.money",
+     "text_scale": 7,
+     "color": "#FFF2C33D",
+     "align": "left",
+     "group": true
+    },
+    {
+     "type": "value",
+     "rect": [
+      48,
+      468,
+      0,
+      20
+     ],
+     "bind": "za.play.h",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "text": "TEMPS ",
+     "pad": 3,
+     "suffix": "H"
+    },
+    {
+     "type": "value",
+     "rect": [
+      230,
+      468,
+      0,
+      20
+     ],
+     "bind": "za.play.m",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "pad": 2,
+     "suffix": " MIN"
+    },
+    {
+     "type": "label",
+     "rect": [
+      48,
+      508,
+      0,
+      15
+     ],
+     "text": "HEURE DE LA SAUVEGARDE",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "left"
+    },
+    {
+     "type": "value",
+     "rect": [
+      48,
+      532,
+      0,
+      20
+     ],
+     "bind": "za.hour",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "pad": 2
+    },
+    {
+     "type": "label",
+     "rect": [
+      80,
+      532,
+      0,
+      20
+     ],
+     "text": ":",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left"
+    },
+    {
+     "type": "value",
+     "rect": [
+      96,
+      532,
+      0,
+      20
+     ],
+     "bind": "za.minute",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "pad": 2
+    },
+    {
+     "type": "label",
+     "rect": [
+      658,
+      150,
+      0,
+      15
+     ],
+     "text": "PROGRESSION",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "left"
+    },
+    {
+     "type": "value",
+     "rect": [
+      658,
+      178,
+      0,
+      20
+     ],
+     "bind": "za.dex.caught",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "text": "ATTRAPÉS "
+    },
+    {
+     "type": "value",
+     "rect": [
+      1190,
+      178,
+      0,
+      20
+     ],
+     "bind": "za.dex.caught",
+     "text_scale": 4,
+     "color": "#FF8492A8",
+     "align": "right",
+     "max_bind": "za.dex.total",
+     "max_sep": " / "
+    },
+    {
+     "type": "bar",
+     "rect": [
+      658,
+      210,
+      532,
+      20
+     ],
+     "bind": "za.dex.caught",
+     "color": "#FFF2C33D",
+     "bg": "#FF0B111C",
+     "frame": 0,
+     "max_bind": "za.dex.total"
+    },
+    {
+     "type": "value",
+     "rect": [
+      658,
+      248,
+      0,
+      20
+     ],
+     "bind": "za.dex.known",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "text": "VUS "
+    },
+    {
+     "type": "value",
+     "rect": [
+      1190,
+      248,
+      0,
+      20
+     ],
+     "bind": "za.dex.known",
+     "text_scale": 4,
+     "color": "#FF8492A8",
+     "align": "right",
+     "max_bind": "za.dex.total",
+     "max_sep": " / "
+    },
+    {
+     "type": "bar",
+     "rect": [
+      658,
+      280,
+      532,
+      20
+     ],
+     "bind": "za.dex.known",
+     "color": "#FF57A9F5",
+     "bg": "#FF0B111C",
+     "frame": 0,
+     "max_bind": "za.dex.total"
+    },
+    {
+     "type": "value",
+     "rect": [
+      658,
+      318,
+      0,
+      20
+     ],
+     "bind": "za.box.used",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "text": "EN BOITE "
+    },
+    {
+     "type": "value",
+     "rect": [
+      1190,
+      318,
+      0,
+      20
+     ],
+     "bind": "za.box.used",
+     "text_scale": 4,
+     "color": "#FF8492A8",
+     "align": "right",
+     "max_bind": "za.box.slots",
+     "max_sep": " / "
+    },
+    {
+     "type": "bar",
+     "rect": [
+      658,
+      350,
+      532,
+      20
+     ],
+     "bind": "za.box.used",
+     "color": "#FF3FD07A",
+     "bg": "#FF0B111C",
+     "frame": 0,
+     "max_bind": "za.box.slots"
+    },
+    {
+     "type": "value",
+     "rect": [
+      658,
+      388,
+      0,
+      20
+     ],
+     "bind": "za.box.unlocked",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "text": "BOÎTES DEBLOQUEES "
+    },
+    {
+     "type": "value",
+     "rect": [
+      1190,
+      388,
+      0,
+      20
+     ],
+     "bind": "za.box.unlocked",
+     "text_scale": 4,
+     "color": "#FF8492A8",
+     "align": "right",
+     "max_bind": "za.box.count",
+     "max_sep": " / "
+    },
+    {
+     "type": "bar",
+     "rect": [
+      658,
+      420,
+      532,
+      20
+     ],
+     "bind": "za.box.unlocked",
+     "color": "#FF57A9F5",
+     "bg": "#FF0B111C",
+     "frame": 0,
+     "max_bind": "za.box.count"
+    },
+    {
+     "type": "label",
+     "rect": [
+      658,
+      466,
+      0,
+      15
+     ],
+     "text": "SAUVEGARDE",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "left"
+    },
+    {
+     "type": "label",
+     "rect": [
+      658,
+      488,
+      0,
+      15
+     ],
+     "text": "",
+     "text_scale": 3,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "bind_text": "za.status"
+    },
+    {
+     "type": "label",
+     "rect": [
+      658,
+      516,
+      0,
+      15
+     ],
+     "text": "BOÎTE AFFICHEE",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "left"
+    },
+    {
+     "type": "value",
+     "rect": [
+      658,
+      538,
+      0,
+      20
+     ],
+     "bind": "za.box.view1",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "left",
+     "text": "BOÎTE ",
+     "max_bind": "za.box.count",
+     "max_sep": " / "
+    },
+    {
+     "type": "label",
+     "rect": [
+      658,
+      570,
+      0,
+      15
+     ],
+     "text": "SUIT LE JEU",
+     "text_scale": 3,
+     "color": "#FF3FD07A",
+     "align": "left",
+     "need_bind": "za.box.follow"
+    },
+    {
+     "type": "button",
+     "rect": [
+      24,
+      620,
+      280,
+      80
+     ],
+     "text": "RAFRAÎCHIR",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FF1A2231",
+     "color": "#FFE8EEF7",
+     "border": 2,
+     "on_tap": "refresh",
+     "id": "refresh"
+    },
+    {
+     "type": "button",
+     "rect": [
+      324,
+      620,
+      280,
+      80
+     ],
+     "text": "SUIVRE LE JEU",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FF1A2231",
+     "color": "#FFE8EEF7",
+     "border": 2,
+     "on_tap": "box_follow",
+     "id": "box_follow"
+    },
+    {
+     "type": "button",
+     "rect": [
+      634,
+      620,
+      270,
+      80
+     ],
+     "text": "BOÎTE PRECEDENTE",
+     "text_scale": 3,
+     "align": "center",
+     "bg": "#FF1A2231",
+     "color": "#FFE8EEF7",
+     "border": 2,
+     "on_tap": "box_prev",
+     "id": "trainer_prev"
+    },
+    {
+     "type": "button",
+     "rect": [
+      924,
+      620,
+      292,
+      80
+     ],
+     "text": "BOÎTE SUIVANTE",
+     "text_scale": 3,
+     "align": "center",
+     "bg": "#FF1A2231",
+     "color": "#FFE8EEF7",
+     "border": 2,
+     "on_tap": "box_next",
+     "id": "trainer_next"
+    },
+    {
+     "type": "label",
+     "rect": [
+      620,
+      730,
+      0,
+      15
+     ],
+     "text": "DONNÉES LUES DANS LA SAUVEGARDE DU JOUEUR",
+     "text_scale": 3,
+     "color": "#FF8492A8",
+     "align": "center"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      0,
+      108,
+      1240,
+      850
+     ],
+     "bg": "#F0070A11",
+     "color": "#00000000",
+     "frame": 0,
+     "input_block": true,
+     "need_bind": "!za.ready"
+    },
+    {
+     "type": "label",
+     "rect": [
+      620,
+      360,
+      0,
+      30
+     ],
+     "text": "SAUVEGARDE NON LUE",
+     "text_scale": 6,
+     "color": "#FFE33B3B",
+     "align": "center",
+     "need_bind": "!za.ready"
+    },
+    {
+     "type": "label",
+     "rect": [
+      620,
+      430,
+      0,
+      20
+     ],
+     "text": "Lancez le jeu et sauvegardez une premiere fois.",
+     "text_scale": 4,
+     "color": "#FFE8EEF7",
+     "align": "center",
+     "need_bind": "!za.ready"
+    },
+    {
+     "type": "label",
+     "rect": [
+      620,
+      490,
+      0,
+      20
+     ],
+     "text": "",
+     "text_scale": 4,
+     "color": "#FF8492A8",
+     "align": "center",
+     "bind_text": "za.status",
+     "need_bind": "!za.ready"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      0,
+      958,
+      1240,
+      122
+     ],
+     "bg": "#FF101623",
+     "color": "#00000000"
+    },
+    {
+     "type": "rect",
+     "rect": [
+      0,
+      958,
+      1240,
+      3
+     ],
+     "bg": "#FF232C3E",
+     "color": "#00000000",
+     "frame": 0
+    },
+    {
+     "id": "tab_team",
+     "type": "button",
+     "rect": [
+      12,
+      984,
+      228,
+      76
+     ],
+     "text": "ÉQUIPE",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FF1A2231",
+     "color": "#FF8492A8",
+     "border": 2,
+     "on_tap": "go_team"
+    },
+    {
+     "id": "tab_dex",
+     "type": "button",
+     "rect": [
+      256,
+      984,
+      228,
+      76
+     ],
+     "text": "POKÉDEX",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FF1A2231",
+     "color": "#FF8492A8",
+     "border": 2,
+     "on_tap": "go_dex"
+    },
+    {
+     "id": "tab_box",
+     "type": "button",
+     "rect": [
+      500,
+      984,
+      228,
+      76
+     ],
+     "text": "BOÎTE",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FF1A2231",
+     "color": "#FF8492A8",
+     "border": 2,
+     "on_tap": "go_box"
+    },
+    {
+     "id": "tab_map",
+     "type": "button",
+     "rect": [
+      744,
+      984,
+      228,
+      76
+     ],
+     "text": "CARTE",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FF1A2231",
+     "color": "#FF8492A8",
+     "border": 2,
+     "on_tap": "go_map"
+    },
+    {
+     "id": "tab_trainer",
+     "type": "button",
+     "rect": [
+      988,
+      984,
+      228,
+      76
+     ],
+     "text": "DRESSEUR",
+     "text_scale": 4,
+     "align": "center",
+     "bg": "#FFE33B3B",
+     "color": "#FFFFFFFF",
+     "border": 0,
+     "on_tap": "go_trainer"
+    }
+   ]
+  }
+ ],
+ "module": {
+  "abi": 1,
+  "build_ids": [
+   "B1F12FD919EAE86A",
+   "7222E13ECF6ADB32"
+  ],
+  "libraries": {
+   "windows-x86_64": {
+    "path": "modules/windows-x86_64/0100F43008C44000.dll",
+    "sha256": "a67050de0491c1b45aaa968a48b4aa66e363cc14a71e5c8cc5e9ed18afb28522"
+   },
+   "android-arm64-v8a": {
+    "path": "modules/android-arm64-v8a/0100F43008C44000.so",
+    "sha256": "9043f70350558a2b185561cada4918d107b2b5d557bba78b4c6582d89c16af12"
+   }
+  }
+ }
+}

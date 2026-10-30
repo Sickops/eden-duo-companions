@@ -1,0 +1,47 @@
+{
+  "world_points": [
+    [
+      -344.725525,
+      -648.544922
+    ],
+    [
+      -584.487366,
+      -717.530029
+    ]
+  ],
+  "texture640_points": [
+    [
+      221.55347655347654,
+      410.7311157311157
+    ],
+    [
+      372.0692777206349,
+      455.24454764383074
+    ]
+  ],
+  "similarity": [
+    -0.6291092839023461,
+    -0.004647364415333791,
+    7.697472970114461,
+    1.123419135250515
+  ],
+  "note": "Landmark centres measured on screenshots; third location reserved for validation.",
+  "validation": {
+    "world": [
+      -779.930359,
+      -900.439331
+    ],
+    "texture640": [
+      491.70563,
+      566.08185
+    ],
+    "method": "SIFT feature matching and RANSAC homography, 41 matches, 22 inliers",
+    "projection_error_pixels": 3.56
+  },
+  "implemented_projection": {
+    "u": "6.25 - 0.625 * world_x",
+    "v": "6.25 - 0.625 * world_z",
+    "area": "t1",
+    "texture_size": 640
+  }
+}

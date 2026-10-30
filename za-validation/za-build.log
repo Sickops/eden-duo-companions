@@ -1,0 +1,52 @@
+[0/2] Re-checking globbed directories...
+[1/2] Re-running CMake...
+-- Configuring done (0.5s)
+-- Generating done (0.8s)
+-- Build files have been written to: D:/Projet IA/Dual screen/companions/build-native-windows
+[0/4] Re-checking globbed directories...
+[1/12] Building CXX object CMakeFiles\dsmod-za.dir\third_party\ooz\oozlib.cpp.obj
+D:\Projet IA\Dual screen\companions\eden-duo-companions-super-mario-odyssey-1.0.0\native\modules\third_party\ooz\ooz_simd.h(215): warning C4005: '_MM_HINT_T0' : redéfinition de macro
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xmmintrin.h(124): note: voir la définition précédente de « _MM_HINT_T0 »
+D:\Projet IA\Dual screen\companions\eden-duo-companions-super-mario-odyssey-1.0.0\native\modules\third_party\ooz\stdafx.h(95): warning C4005: '_countof' : redéfinition de macro
+C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\stdlib.h(27): note: voir la définition précédente de « _countof »
+[2/12] Building CXX object CMakeFiles\dsmod-za.dir\third_party\ooz\bitknit.cpp.obj
+D:\Projet IA\Dual screen\companions\eden-duo-companions-super-mario-odyssey-1.0.0\native\modules\third_party\ooz\ooz_simd.h(215): warning C4005: '_MM_HINT_T0' : redéfinition de macro
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xmmintrin.h(124): note: voir la définition précédente de « _MM_HINT_T0 »
+D:\Projet IA\Dual screen\companions\eden-duo-companions-super-mario-odyssey-1.0.0\native\modules\third_party\ooz\stdafx.h(95): warning C4005: '_countof' : redéfinition de macro
+C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\stdlib.h(27): note: voir la définition précédente de « _countof »
+D:\Projet IA\Dual screen\companions\eden-duo-companions-super-mario-odyssey-1.0.0\native\modules\third_party\ooz\bitknit.cpp(390): warning C4319: '~' : zéro étendant 'uint32' vers 'size_t' d'une taille supérieure
+[3/12] Building CXX object CMakeFiles\dsmod-za.dir\third_party\ooz\kraken.cpp.obj
+D:\Projet IA\Dual screen\companions\eden-duo-companions-super-mario-odyssey-1.0.0\native\modules\third_party\ooz\ooz_simd.h(215): warning C4005: '_MM_HINT_T0' : redéfinition de macro
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xmmintrin.h(124): note: voir la définition précédente de « _MM_HINT_T0 »
+D:\Projet IA\Dual screen\companions\eden-duo-companions-super-mario-odyssey-1.0.0\native\modules\third_party\ooz\stdafx.h(95): warning C4005: '_countof' : redéfinition de macro
+C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\stdlib.h(27): note: voir la définition précédente de « _countof »
+[4/12] Building CXX object CMakeFiles\dsmod-za.dir\D_\Projet_IA\Dual_screen\eden-duo\externals\bc_decoder\bc_decoder.cpp.obj
+[5/12] Building CXX object CMakeFiles\dsmod-za.dir\za_save.cpp.obj
+[6/12] Building CXX object CMakeFiles\dsmod-za.dir\0100F43008C44000.cpp.obj
+[7/12] Building CXX object CMakeFiles\dsmod-za.dir\za_assets.cpp.obj
+[8/12] Building CXX object CMakeFiles\dsmod-za.dir\third_party\ooz\lzna.cpp.obj
+D:\Projet IA\Dual screen\companions\eden-duo-companions-super-mario-odyssey-1.0.0\native\modules\third_party\ooz\ooz_simd.h(215): warning C4005: '_MM_HINT_T0' : redéfinition de macro
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.52.37025\include\xmmintrin.h(124): note: voir la définition précédente de « _MM_HINT_T0 »
+D:\Projet IA\Dual screen\companions\eden-duo-companions-super-mario-odyssey-1.0.0\native\modules\third_party\ooz\stdafx.h(95): warning C4005: '_countof' : redéfinition de macro
+C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\stdlib.h(27): note: voir la définition précédente de « _countof »
+[9/12] Linking CXX shared library 0100F43008C44000.dll
+DLL: D:\Projet IA\Dual screen\companions\build-native-windows\0100000000010000.dll
+DLL: D:\Projet IA\Dual screen\companions\build-native-windows\0100000011D90000.dll
+DLL: D:\Projet IA\Dual screen\companions\build-native-windows\010015100B514000.dll
+DLL: D:\Projet IA\Dual screen\companions\build-native-windows\0100152000022000.dll
+DLL: D:\Projet IA\Dual screen\companions\build-native-windows\010018E011D92000.dll
+DLL: D:\Projet IA\Dual screen\companions\build-native-windows\01001B300B9BE000.dll
+DLL: D:\Projet IA\Dual screen\companions\build-native-windows\010021C000B6A000.dll
+DLL: D:\Projet IA\Dual screen\companions\build-native-windows\01003E601E324000.dll
+DLL: D:\Projet IA\Dual screen\companions\build-native-windows\010055D009F78000.dll
+DLL: D:\Projet IA\Dual screen\companions\build-native-windows\01005CA01580E000.dll
+DLL: D:\Projet IA\Dual screen\companions\build-native-windows\01006F8002326000.dll
+DLL: D:\Projet IA\Dual screen\companions\build-native-windows\01007EF00011E000.dll
+DLL: D:\Projet IA\Dual screen\companions\build-native-windows\01008CF01BAAC000.dll
+DLL: D:\Projet IA\Dual screen\companions\build-native-windows\010093801237C000.dll
+DLL: D:\Projet IA\Dual screen\companions\build-native-windows\0100BA4026E94000.dll
+DLL: D:\Projet IA\Dual screen\companions\build-native-windows\0100C2901153C000.dll
+DLL: D:\Projet IA\Dual screen\companions\build-native-windows\0100C510166F0000.dll
+DLL: D:\Projet IA\Dual screen\companions\build-native-windows\0100D04004176000.dll
+DLL: D:\Projet IA\Dual screen\companions\build-native-windows\0100F43008C44000.dll
+DLL: D:\Projet IA\Dual screen\companions\build-native-windows\0100F9F00C696000.dll

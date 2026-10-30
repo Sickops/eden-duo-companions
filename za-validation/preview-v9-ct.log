@@ -1,0 +1,18 @@
+glyph filtering: coverage, tint, clipping and 1:1 OK
+NCA base=0 update=0 merged=5989104840
+merged directory: arc
+merged romfs: arc/data.trpfd 9877520 bytes
+merged romfs: arc/data.trpfs 4753821072 bytes
+merged directory: audio
+merged directory: system
+  module log: ZA save: sauvegarde a jour (main, 3186598 octets, 185 blocs, equipe 6, dex 242/22)
+  module log: ZA assets: archives, noms et catalogue charges
+preview: companions/za-validation/preview-v9-ct\team.png
+preview: companions/za-validation/preview-v9-ct\dex.png
+preview: companions/za-validation/preview-v9-ct\dex_detail.png
+preview: companions/za-validation/preview-v9-ct\box.png
+preview: companions/za-validation/preview-v9-ct\map.png
+preview: companions/za-validation/preview-v9-ct\bag.png
+preview: companions/za-validation/preview-v9-ct\missions.png
+preview: companions/za-validation/preview-v9-ct\mission_detail.png
+preview: companions/za-validation/preview-v9-ct\box_controls.png

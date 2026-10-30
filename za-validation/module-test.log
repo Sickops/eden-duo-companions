@@ -1,0 +1,26 @@
+module: Pokemon Legends Z-A DSMod, title 0100F43008C44000, caps 30
+  module log: ZA save: sauvegarde a jour (main, 3186611 octets, 186 blocs, equipe 6, dex 57/142)
+status: sauvegarde a jour | ot: Alain | money 213005 | play 95265 s
+  za.party.count     6
+  slot 0: sp 6 lvl 65 hp 49/201 nature 18 name Charizard
+  slot 1: sp 160 lvl 64 hp 40/209 nature 0 name Feraligatr
+  slot 2: sp 359 lvl 64 hp 180/180 nature 17 name Absol
+  slot 3: sp 121 lvl 61 hp 159/159 nature 5 name Starmie
+  slot 4: sp 530 lvl 65 hp 0/228 nature 18 name Excadrill
+  slot 5: sp 214 lvl 69 hp 218/218 nature 2 name Bois
+  za.dex.caught      57
+  za.dex.known       199
+  za.dex.g0          15
+  za.dex.g8.max      120
+  za.box.used        48
+  za.box.view1       1
+  za.box.count       32
+  za.box.unlocked    8
+  za.box.view.used   30
+  pmx 593.8 pmy 536.2 | xi -125 yi 0 zi -391 | street '' map 't1'
+unchanged save: 32 byte(s) re-read
+  module log: ZA save: somme de controle invalide (main, 3186611 octets, 186 blocs, equipe 6, dex 57/142)
+rewritten save status: somme de controle invalide
+  module log: ZA save: sauvegarde introuvable (-, 0 octets, 0 blocs, equipe 0, dex 0/0)
+missing save status: sauvegarde introuvable
+za-module-host: ok

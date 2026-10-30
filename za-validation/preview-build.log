@@ -1,0 +1,33 @@
+[0/2] Re-checking globbed directories...
+[1/5] Automatic MOC and UIC for target dsmod_preview
+[2/4] Building CXX object src\yuzu\CMakeFiles\dsmod_preview.dir\D_\Projet_IA\Dual_screen\companions\eden-duo-companions-super-mario-odyssey-1.0.0\tools\za\preview.cpp.obj
+D:\Projet IA\Dual screen\companions\eden-duo-companions-super-mario-odyssey-1.0.0\tools\za\../../native/modules/za_module_host_test.cpp(8): warning C4005: 'NOMINMAX' : redéfinition de macro
+D:\Projet IA\Dual screen\companions\eden-duo-companions-super-mario-odyssey-1.0.0\tools\za\../../native/modules/za_module_host_test.cpp(8): note: 'NOMINMAX' précédemment déclaré en ligne de commande
+D:\Projet IA\Dual screen\companions\eden-duo-companions-super-mario-odyssey-1.0.0\tools\za\preview.cpp(180): warning C4244: '=' : conversion de '_Ty' en '_Ty', perte possible de données
+        with
+        [
+            _Ty=std::_Vbase
+        ]
+        and
+        [
+            _Ty=unsigned char
+        ]
+D:\Projet IA\Dual screen\companions\eden-duo-companions-super-mario-odyssey-1.0.0\tools\za\preview.cpp(180): warning C4244: '=' : conversion de '_Ty' en '_Ty', perte possible de données
+        with
+        [
+            _Ty=std::_Vbase
+        ]
+        and
+        [
+            _Ty=unsigned char
+        ]
+D:\Projet IA\Dual screen\companions\eden-duo-companions-super-mario-odyssey-1.0.0\tools\za\preview.cpp(180): warning C4244: '=' : conversion de 'const _Ty' en '_Ty', perte possible de données
+        with
+        [
+            _Ty=std::_Vbase
+        ]
+        and
+        [
+            _Ty=unsigned char
+        ]
+[3/4] Linking CXX executable bin\dsmod_preview.exe

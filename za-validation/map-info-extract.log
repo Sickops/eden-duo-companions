@@ -1,0 +1,4 @@
+arc/uidatamapmap_info_00_fre.arc.trpak: hash=62B7E9D7AC168D7E pack#3838 off=1309972896 size=975080
+inner files: 2
+  [ 0] type=0x07030000 uncomp=22691284 head: 53 41 52 43 14 00 ff fe head=53 41 52 43 14 00 ff fe d4 3d 5a 01 00 40 00 00
+  [ 1] type=0x07030000 uncomp= 360120 head: 53 41 52 43 14 00 ff fe head=53 41 52 43 14 00 ff fe b8 7e 05 00 00 10 00 00

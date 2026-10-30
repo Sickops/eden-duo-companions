@@ -1,0 +1,6 @@
+arc/avalondatatokusei_array.bin.trpak: hash=0544C7DE96FC625C pack#203 off=52379232 size=130792
+inner files: 4
+  [ 0] type=0x07030000 uncomp= 377176 head: 0c 00 00 00 00 00 06 00 head=0c 00 00 00 00 00 06 00 08 00 04 00 06 00 00 00
+  [ 1] type=0x07030000 uncomp=   3248 head: 0c 00 00 00 00 00 06 00 head=0c 00 00 00 00 00 06 00 a4 0c 04 00 06 00 00 00
+  [ 2] type=0x07030000 uncomp=  90640 head: 0c 00 00 00 00 00 06 00 head=0c 00 00 00 00 00 06 00 08 00 04 00 06 00 00 00
+  [ 3] type=0x07030000 uncomp=   4024 head: 0c 00 00 00 00 00 06 00 head=0c 00 00 00 00 00 06 00 08 00 04 00 06 00 00 00

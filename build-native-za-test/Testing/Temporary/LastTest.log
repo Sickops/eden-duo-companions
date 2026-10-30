@@ -1,0 +1,19 @@
+Start testing: Oct 30 10:01 Paris, Madrid
+----------------------------------------------------------
+165/167 Testing: dsmod-za-save
+165/167 Test: dsmod-za-save
+Command: "D:/Projet IA/Dual screen/companions/build-native-za-test/dsmod-za-save-test.exe"
+Directory: D:/Projet IA/Dual screen/companions/build-native-za-test
+"dsmod-za-save" start time: Oct 30 10:01 Paris, Madrid
+Output:
+----------------------------------------------------------
+za-save: ok (10 blocks, party 2, dex 2/1, box 1)
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"dsmod-za-save" end time: Oct 30 10:01 Paris, Madrid
+"dsmod-za-save" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 30 10:01 Paris, Madrid
